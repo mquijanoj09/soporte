@@ -1,13 +1,15 @@
+"use client";
 import Image from "next/image";
-import img1 from "../../public/images/im1.jpg";
+import img1 from "../../public/images/pc.jpg";
 import img2 from "../../public/images/im2.jpg";
 import img3 from "../../public/images/im3.jpg";
 import { CommunitySvg, HeadsetSvg, InnovationSvg, StatsUpSvg } from "@/icons";
+import { scrollToSection } from "@/utils/scrollTo";
 
 export default function Services() {
   return (
     <div className="bg-white h-screen-minus-112 flex">
-      <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-20">
+      <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-20 justify-center">
         <div className="flex flex-col gap-10">
           <h3 className="font-extrabold text-5xl">Nuestros servicios</h3>
           <p>
@@ -51,7 +53,10 @@ export default function Services() {
         </div>
       </div>
       <div className="w-3/4 h-full flex justify-between gap-20 p-14 overflow-hidden">
-        <div className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform duration-300 hover:scale-105">
+        <div
+          className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          onClick={() => scrollToSection("warranty-services")}
+        >
           <div className="relative h-2/3">
             <Image
               src={img1}
@@ -72,7 +77,10 @@ export default function Services() {
             </p>
           </div>
         </div>
-        <div className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform duration-300 hover:scale-105">
+        <div
+          className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          onClick={() => scrollToSection("outsourcing-services")}
+        >
           <div className="relative h-2/3">
             <Image
               src={img2}
@@ -85,15 +93,18 @@ export default function Services() {
           <div className="flex flex-col gap-3 px-10 py-6">
             <h3 className="font-bold text-4xl text-darkerMain">02</h3>
             <h4 className="font-bold text-3xl text-darkerMain">
-              IT Outourcing
+              IT Outsourcing
             </h4>
             <p>
-              Mesa de Ayuda / Soporte en Sitio /Monitoreo / Administrador de
+              Mesa de Ayuda / Soporte en Sitio / Monitoreo / Administrador de
               Redes / Gestión de Activos de TI.
             </p>
           </div>
         </div>
-        <div className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform duration-300 hover:scale-105">
+        <div
+          className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          onClick={() => scrollToSection("delivery-services")}
+        >
           <div className="relative h-2/3">
             <Image
               src={img3}

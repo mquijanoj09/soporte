@@ -25,9 +25,9 @@ const config: Config = {
       },
       height: {
         "screen-minus-112": "calc(100dvh - 112px)",
+        "": "calc(50dvh - 112px)",
       },
     },
   },
-  plugins: [],
 };
 export default config;

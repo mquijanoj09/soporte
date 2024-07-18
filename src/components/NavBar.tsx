@@ -10,8 +10,7 @@ export default function NavBar() {
 
   return (
     <>
-      <div className="fixed top-0 z-30 flex h-28 w-full items-center justify-between bg-lighterGray bg-opacity-40 py-6 shadow-md backdrop-blur-md px-28" />
-      <header className="fixed top-0 z-30 flex h-28 w-full items-center justify-between py-6 px-28">
+      <header className="bg-white shadow-md fixed top-0 z-30 flex h-28 w-full items-center justify-between py-6 px-28">
         <Link href="/">
           <Image src={logo} alt="logo" width={250} />
         </Link>
@@ -20,15 +19,15 @@ export default function NavBar() {
             href="/"
             className={`hover:text-main ${activePage === "" && "text-main"}`}
           >
-            Home
+            Inicio
           </Link>
           <Link
-            href={"/servicios"}
+            href={"/nosotros"}
             className={`hover:text-main ${
-              activePage === "servicios" && "text-main"
+              activePage === "nosotros" && "text-main"
             }`}
           >
-            Servicios
+            Nosotros
           </Link>
           <Link
             href={"/contacto"}
