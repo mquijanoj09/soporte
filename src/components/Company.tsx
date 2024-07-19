@@ -4,7 +4,7 @@ import empleados from "../../public/images/soporte-empleados.jpg";
 
 export default function Company() {
   return (
-    <div className="bg-main text-white h-screen-minus-112 flex relative">
+    <div className="bg-main text-white h-screen flex relative">
       <div className="w-3/5 px-28 flex items-center">
         <div className="max-w-lg flex flex-col gap-7">
           <h2 className="font-extrabold text-4xl">

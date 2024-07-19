@@ -52,7 +52,7 @@ export default function RootLayout({
       >
         <NavBar />
         <Providers>
-          <div className="pt-28">{children}</div>
+          <div>{children}</div>
         </Providers>
         <Footer />
       </body>

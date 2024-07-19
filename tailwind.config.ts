@@ -23,10 +23,6 @@ const config: Config = {
         gray: "#a3a3a3",
         lighterGray: "#edf3f4",
       },
-      height: {
-        "screen-minus-112": "calc(100dvh - 112px)",
-        "": "calc(50dvh - 112px)",
-      },
     },
   },
 };

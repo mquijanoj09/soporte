@@ -5,7 +5,7 @@ import dxc from "../../public/images/DXC.png";
 export default function DeliveryServices() {
   return (
     <div
-      className="bg-lighterGray h-screen-minus-112 flex flex-col justify-center px-28 text-secondary"
+      className="bg-lighterGray h-screen flex flex-col justify-center px-28 text-secondary"
       id="delivery-services"
     >
       <div className="flex w-full gap-36">

@@ -67,7 +67,7 @@ export default function Brands() {
         </div>
       </div>
       <div
-        className="h-screen-minus-112 bg-main px-28 flex flex-col items-center justify-center"
+        className="h-screen bg-main px-28 flex flex-col items-center justify-center"
         id="clients"
       >
         <h3 className="font-extrabold text-5xl mb-28 text-center text-white">

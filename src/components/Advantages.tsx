@@ -34,7 +34,7 @@ export default function Advantages() {
             alt="Hero"
             layout="fill"
             objectFit="cover"
-            className="filter grayscale pt-28"
+            className="filter grayscale"
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ import { HeadsetSvg } from "@/icons";
 export default function OutsourcingServices() {
   return (
     <div
-      className="bg-secondary text-white flex flex-col justify-center px-28 h-screen-minus-112 "
+      className="bg-secondary text-white flex flex-col justify-center px-28 h-screen "
       id="outsourcing-services"
     >
       <div className="flex w-full gap-56">

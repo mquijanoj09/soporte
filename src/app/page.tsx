@@ -1,10 +1,7 @@
 import {
   Hero,
   Brands,
-  Company,
-  Info,
   Advantages,
-  Benefits,
   DeliveryServices,
   OutsourcingServices,
   WarrantyServices,
@@ -15,6 +12,7 @@ export default function Home() {
   return (
     <main>
       <Hero />
+      <div className="h-screen bg-white"></div>
       <Advantages />
       <Brands />
       <Services />

@@ -8,7 +8,7 @@ import { scrollToSection } from "@/utils/scrollTo";
 
 export default function Services() {
   return (
-    <div className="bg-white h-screen-minus-112 flex">
+    <div className="bg-white h-screen flex" id="services">
       <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-20 justify-center">
         <div className="flex flex-col gap-10">
           <h3 className="font-extrabold text-5xl">Nuestros servicios</h3>
@@ -52,7 +52,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="w-3/4 h-full flex justify-between gap-20 p-14 overflow-hidden">
+      <div className="w-3/4 h-full flex justify-between gap-20 px-14 py-28 overflow-hidden">
         <div
           className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
           onClick={() => scrollToSection("warranty-services")}
