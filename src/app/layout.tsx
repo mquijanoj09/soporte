@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 import classNames from "classnames";
-import { Footer, NavBar } from "@/components";
+import { NavBar } from "@/components";
 import Providers from "./providers";
 
 const myFont = localFont({ src: "../fonts/NoveraClassicRegular.otf" });
@@ -54,7 +54,6 @@ export default function RootLayout({
         <Providers>
           <div>{children}</div>
         </Providers>
-        <Footer />
       </body>
     </html>
   );

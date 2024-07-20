@@ -5,7 +5,7 @@ import empleados from "../../public/images/soporte-empleados.jpg";
 export default function Company() {
   return (
     <div className="bg-main text-white h-screen flex relative">
-      <div className="w-3/5 px-28 flex items-center">
+      <div className="w-2/3 px-28 flex items-center">
         <div className="max-w-lg flex flex-col gap-7">
           <h2 className="font-extrabold text-4xl">
             SOPORTE SA fue fundada en 1995 para ofrecer servicios de calidad a
@@ -37,14 +37,7 @@ export default function Company() {
           </p>
         </div>
       </div>
-      <div className="bg-white w-2/5 relative">
-        <Image
-          src={logo}
-          height={100}
-          alt="Soporte SA"
-          className="absolute right-10 top-10"
-        />
-      </div>
+      <div className="bg-white w-1/3 relative"></div>
       <Image
         src={empleados}
         height={650}

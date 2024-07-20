@@ -10,7 +10,9 @@ export default function DeliveryServices() {
     >
       <div className="flex w-full gap-36">
         <div className="w-5/12 flex flex-col gap-20">
-          <h3 className="text-6xl font-extrabold">PROJECT DELIVERY</h3>
+          <h3 className="text-6xl font-extrabold block-appear">
+            PROJECT DELIVERY
+          </h3>
           <div className="flex flex-col gap-10 text-xl">
             <p>
               Son una serie de servicios relacionados con la entrega de

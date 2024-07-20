@@ -6,6 +6,7 @@ import {
   OutsourcingServices,
   WarrantyServices,
   Services,
+  Footer,
 } from "@/components";
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <WarrantyServices />
       <OutsourcingServices />
       <DeliveryServices />
+      <Footer />
     </main>
   );
 }

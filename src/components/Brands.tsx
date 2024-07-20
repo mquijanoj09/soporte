@@ -11,25 +11,30 @@ export default function Brands() {
   return (
     <>
       <div className="bg-secondary text-white gap-20 w-full flex flex-col justify-center h-full p-28">
-        <h3 className="font-extrabold text-5xl text-center">
+        <h3 className="font-extrabold text-5xl text-center block-appear">
           Nuestros aliados
         </h3>
         <div className="gap-12 flex-col w-full grid grid-cols-5 h-48 relative border-y">
           <div className="relative">
-            <Image src={dxc} layout="fill" objectFit="cover" alt="logo" />
+            <Image src={dxc} fill style={{ objectFit: "cover" }} alt="logo" />
           </div>
 
           <div className="relative">
-            <Image src={toshiba} layout="fill" objectFit="cover" alt="logo" />
+            <Image
+              src={toshiba}
+              fill
+              style={{ objectFit: "cover" }}
+              alt="logo"
+            />
           </div>
           <div className="relative">
-            <Image src={hp} layout="fill" objectFit="cover" alt="logo" />
+            <Image src={hp} fill style={{ objectFit: "cover" }} alt="logo" />
           </div>
           <div className="relative">
-            <Image src={argos} layout="fill" objectFit="cover" alt="logo" />
+            <Image src={argos} fill style={{ objectFit: "cover" }} alt="logo" />
           </div>
           <div className="relative">
-            <Image src={ibm} layout="fill" objectFit="cover" alt="logo" />
+            <Image src={ibm} fill style={{ objectFit: "cover" }} alt="logo" />
           </div>
         </div>
         <div className="gap-12 flex-col grid grid-cols-5">
@@ -70,7 +75,7 @@ export default function Brands() {
         className="h-screen bg-main px-28 flex flex-col items-center justify-center"
         id="clients"
       >
-        <h3 className="font-extrabold text-5xl mb-28 text-center text-white">
+        <h3 className="font-extrabold text-5xl mb-28 text-center text-white block-appear">
           Quienes Confían en Nosotros
         </h3>
         <div className="grid grid-cols-4 gap-x-40 gap-y-12">

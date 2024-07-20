@@ -9,9 +9,11 @@ import { scrollToSection } from "@/utils/scrollTo";
 export default function Services() {
   return (
     <div className="bg-white h-screen flex" id="services">
-      <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-20 justify-center">
+      <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-36 justify-center">
         <div className="flex flex-col gap-10">
-          <h3 className="font-extrabold text-5xl">Nuestros servicios</h3>
+          <h3 className="font-extrabold text-5xl block-appear">
+            Nuestros servicios
+          </h3>
           <p>
             Nuestros servicios están diseñados para asegurar que cada
             departamento interno reciba el apoyo necesario y una asistencia
@@ -61,8 +63,8 @@ export default function Services() {
             <Image
               src={img1}
               alt="services"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               className="rounded-md rounded-b-none"
             />
           </div>
@@ -85,8 +87,8 @@ export default function Services() {
             <Image
               src={img2}
               alt="services"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               className="rounded-md rounded-b-none"
             />
           </div>
@@ -109,8 +111,8 @@ export default function Services() {
             <Image
               src={img3}
               alt="services"
-              layout="fill"
-              objectFit="cover"
+              fill
+              style={{ objectFit: "cover" }}
               className="rounded-md rounded-b-none"
             />
           </div>

@@ -32,9 +32,8 @@ export default function Advantages() {
           <Image
             src={advantages}
             alt="Hero"
-            layout="fill"
-            objectFit="cover"
-            className="filter grayscale"
+            fill
+            style={{ objectFit: "cover" }}
           />
         </div>
       </div>

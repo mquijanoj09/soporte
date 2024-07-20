@@ -7,7 +7,7 @@ export default function WarrantyServices() {
   return (
     <div className="bg-main h-screen p-28 text-white" id="warranty-services">
       <div className="grid grid-cols-5 w-full gap-x-28 gap-y-16">
-        <h2 className="text-6xl font-extrabold col-span-2">
+        <h2 className="text-6xl font-extrabold col-span-2 block-appear">
           HP WARRANTY SERVICE
         </h2>
         <h3 className="text-4xl font-extrabold max-w-xl col-span-3">

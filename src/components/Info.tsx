@@ -31,7 +31,7 @@ export default function Info() {
         </div>
       </div>
       <div className="w-2/3 h-full relative">
-        <Image src={img} alt="Hero" layout="fill" objectFit="cover" />
+        <Image src={img} alt="Hero" fill style={{ objectFit: "cover" }} />
       </div>
     </div>
   );
