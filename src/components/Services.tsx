@@ -9,11 +9,9 @@ import { scrollToSection } from "@/utils/scrollTo";
 export default function Services() {
   return (
     <div className="bg-white h-screen flex" id="services">
-      <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-36 justify-center">
+      <div className="w-1/4 h-full bg-secondary flex flex-col p-16 text-white gap-28 justify-center">
         <div className="flex flex-col gap-10">
-          <h3 className="font-extrabold text-5xl block-appear">
-            Nuestros servicios
-          </h3>
+          <h3 className="font-extrabold text-5xl">Nuestros servicios</h3>
           <p>
             Nuestros servicios están diseñados para asegurar que cada
             departamento interno reciba el apoyo necesario y una asistencia
@@ -54,9 +52,9 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <div className="w-3/4 h-full flex justify-between gap-20 px-14 py-28 overflow-hidden">
+      <div className="w-3/4 h-full flex justify-between gap-20 px-14 py-40 overflow-hidden">
         <div
-          className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          className="bg-lighterGray w-full flex flex-col justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
           onClick={() => scrollToSection("warranty-services")}
         >
           <div className="relative h-2/3">
@@ -80,7 +78,7 @@ export default function Services() {
           </div>
         </div>
         <div
-          className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          className="bg-lighterGray w-full flex flex-col justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
           onClick={() => scrollToSection("outsourcing-services")}
         >
           <div className="relative h-2/3">
@@ -104,7 +102,7 @@ export default function Services() {
           </div>
         </div>
         <div
-          className="bg-lighterGray w-full flex flex-col gap-5 justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          className="bg-lighterGray w-full flex flex-col justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
           onClick={() => scrollToSection("delivery-services")}
         >
           <div className="relative h-2/3">

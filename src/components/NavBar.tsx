@@ -2,21 +2,18 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import logo from "../../public/images/logo-color.png";
-import { useEffect, useState } from "react";
-import { PlusSvg } from "@/icons";
-import MinusSvg from "@/icons/MinusSvg";
-import ServicesSubMenu from "./ServicesSubMenu";
+import logo from "../../public/images/logo-blanco.png";
+import React, { useEffect, useState } from "react";
+import ServicesSubmenu from "./ServicesSubmenu";
 
-export default function NavBar() {
+const Example = () => {
   const pathname = usePathname();
   const activePage = pathname.split("/")[1];
   const [newMenu, setNewMenu] = useState(false);
-  const [showServices, setShowServices] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 180) {
+      if (window.scrollY > 200) {
         setNewMenu(true);
       } else {
         setNewMenu(false);
@@ -35,7 +32,7 @@ export default function NavBar() {
         </Link>
         <div className="flex items-center justify-center">
           <header
-            className={`fixed shadow-xl bg-white rounded-full flex items-center justify-between transition-all duration-700 ease-in-out ${
+            className={`fixed shadow-custom-xl bg-white rounded-full flex items-center justify-between transition-all duration-700 ease-in-out ${
               newMenu
                 ? "pl-10 py-1 pr-1 text-black"
                 : "px-10 py-3 backdrop-blur-md bg-opacity-40 text-white"
@@ -50,30 +47,7 @@ export default function NavBar() {
               >
                 Inicio
               </Link>
-              <div
-                className="relative cursor-default flex items-center gap-1 px-1 mr-2"
-                onMouseEnter={() => setShowServices(true)}
-              >
-                Servicios{" "}
-                <span
-                  className={`absolute -right-5 ${
-                    showServices
-                      ? "opacity-100 transition-opacity duration-300"
-                      : "opacity-0 transition-opacity duration-300"
-                  }`}
-                >
-                  <MinusSvg color={newMenu ? "#000000" : "#ffffff"} />
-                </span>
-                <span
-                  className={`absolute -right-5 ${
-                    !showServices
-                      ? "opacity-100 transition-opacity duration-300"
-                      : "opacity-0 transition-opacity duration-300"
-                  }`}
-                >
-                  <PlusSvg color={newMenu ? "#000000" : "#ffffff"} />
-                </span>
-              </div>
+              <ServicesSubmenu newMenu={newMenu} />
               <Link
                 href={"/nosotros"}
                 className={`hover:text-main ${
@@ -100,16 +74,8 @@ export default function NavBar() {
           Contáctanos
         </Link>
       </div>
-      <div
-        className={`fixed flex items-center justify-center w-1/2 z-[100] mt-24 transform -translate-x-1/2 left-1/2 ${
-          showServices
-            ? "opacity-100 transition-opacity duration-500"
-            : "opacity-0 transition-opacity duration-500"
-        }`}
-        onMouseLeave={() => setShowServices(false)}
-      >
-        <ServicesSubMenu setShowServices={setShowServices} />
-      </div>
     </div>
   );
-}
+};
+
+export default Example;

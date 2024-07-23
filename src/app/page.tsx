@@ -7,13 +7,14 @@ import {
   WarrantyServices,
   Services,
   Footer,
+  Cards,
 } from "@/components";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <div className="h-screen bg-white"></div>
+      <Cards />
       <Advantages />
       <Brands />
       <Services />

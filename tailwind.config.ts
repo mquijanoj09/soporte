@@ -16,6 +16,14 @@ const config: Config = {
       boxShadow: {
         "custom-xl": "0 20px 40px rgba(0, 0, 0, 0.4)",
       },
+      animation: {
+        "loop-scroll": "loop-scroll 20s linear infinite",
+      },
+      keyframes: {
+        "loop-scroll": {
+          "100%": { transform: "translate(calc(-100% - 4rem))" },
+        },
+      },
       colors: {
         main: "#aa0000",
         secondary: "#2b122b",
