@@ -14,7 +14,7 @@ export default function Brands() {
         <h3 className="font-extrabold text-5xl text-center">
           Nuestros aliados
         </h3>
-        <div className="flex overflow-hidden  gap-16">
+        <div className="flex overflow-hidden gap-16">
           <div className="flex animate-loop-scroll  gap-16">
             <div className="border-t border-white absolute top-0 w-screen z-[60]" />
             <div className="border-b border-white absolute bottom-44 w-screen z-[60]" />

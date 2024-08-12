@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import services from "../../public/images/hero3.jpg";
-import { scrollToSection } from "@/utils/scrollTo";
+import { scrollToSectionInstant } from "@/utils/scrollTo";
 import ArrowTopRightSvg from "@/icons/ArrowTopRightSvg";
 
 interface Props {
@@ -13,8 +13,8 @@ interface Props {
 export default function ServicesSubmenu({ newMenu }: Props) {
   const [open, setOpen] = useState(false);
   function handleOnClick(target: string) {
-    scrollToSection(target);
     setOpen(false);
+    scrollToSectionInstant(target);
   }
 
   return (

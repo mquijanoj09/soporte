@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import CountUp from "react-countup";
 import advantages from "../../public/images/datos.jpg";
-import { scrollToSection } from "@/utils/scrollTo";
+import { scrollToSectionSmooth } from "@/utils/scrollTo";
 
 export default function Advantages() {
   const [isVisible, setIsVisible] = useState(false);
@@ -58,7 +58,7 @@ export default function Advantages() {
         </div>
         <div
           className="flex flex-col cursor-pointer"
-          onClick={() => scrollToSection("clients")}
+          onClick={() => scrollToSectionSmooth("clients")}
         >
           {isVisible && (
             <div>

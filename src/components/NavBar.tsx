@@ -28,7 +28,7 @@ const Example = () => {
     <div className="relative w-full">
       <div className="flex w-full items-center justify-between px-20 py-7 absolute z-50">
         <Link href="/">
-          <Image src={logo} alt="logo" width={250} />
+          <Image src={logo} alt="logo" width={250} priority />
         </Link>
         <div className="flex items-center justify-center">
           <header

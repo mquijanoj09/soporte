@@ -14,7 +14,7 @@ export default function HeroImage() {
     offset: ["end end", "end start"],
   });
 
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.85]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
   const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
 
   const [isBottomVisible, setIsBottomVisible] = useState(false);
@@ -26,7 +26,7 @@ export default function HeroImage() {
   return (
     <motion.div
       style={{
-        backgroundImage: `url(/images/hero.png)`,
+        backgroundImage: `url(/images/hero.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: `calc(100vh)`,

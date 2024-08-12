@@ -4,7 +4,7 @@ import img1 from "../../public/images/pc.jpg";
 import img2 from "../../public/images/im2.jpg";
 import img3 from "../../public/images/im3.jpg";
 import { CommunitySvg, HeadsetSvg, InnovationSvg, StatsUpSvg } from "@/icons";
-import { scrollToSection } from "@/utils/scrollTo";
+import { scrollToSectionSmooth } from "@/utils/scrollTo";
 
 export default function Services() {
   return (
@@ -55,7 +55,7 @@ export default function Services() {
       <div className="w-3/4 h-full flex justify-between gap-20 px-14 py-40 overflow-hidden">
         <div
           className="bg-lighterGray w-full flex flex-col justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
-          onClick={() => scrollToSection("warranty-services")}
+          onClick={() => scrollToSectionSmooth("warranty-services")}
         >
           <div className="relative h-2/3">
             <Image
@@ -79,7 +79,7 @@ export default function Services() {
         </div>
         <div
           className="bg-lighterGray w-full flex flex-col justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
-          onClick={() => scrollToSection("outsourcing-services")}
+          onClick={() => scrollToSectionSmooth("outsourcing-services")}
         >
           <div className="relative h-2/3">
             <Image
@@ -103,7 +103,7 @@ export default function Services() {
         </div>
         <div
           className="bg-lighterGray w-full flex flex-col justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
-          onClick={() => scrollToSection("delivery-services")}
+          onClick={() => scrollToSectionSmooth("delivery-services")}
         >
           <div className="relative h-2/3">
             <Image
