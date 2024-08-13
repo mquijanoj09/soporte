@@ -31,13 +31,13 @@ export default function HeroText() {
             Servicios&nbsp;tecnólogicos de alto desempeño.
           </h1>
           <div className="flex gap-5 -bottom-28 w-full lg:text-lg text-base items-center justify-center absolute">
-            <div className="pr-2">Síguenos</div>{" "}
-            <span>-------------------</span>
+            <div className="pr-2">Síguenos</div>
+            <div className="border-b w-20" />
             <a
               href="https://www.instagram.com/soportesa/"
               target="_blank"
               rel="noreferrer"
-              className="p-2"
+              className="pr-4 pl-2"
             >
               <InstagramSvg />
             </a>
