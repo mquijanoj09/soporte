@@ -10,7 +10,7 @@ interface Props {
   newMenu: boolean;
 }
 
-export default function ServicesSubmenu({ newMenu }: Props) {
+export default function SubmenuServices({ newMenu }: Props) {
   const [open, setOpen] = useState(false);
   function handleOnClick(target: string) {
     setOpen(false);

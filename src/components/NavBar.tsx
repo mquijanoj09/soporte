@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import logo from "../../public/images/logo-blanco.png";
 import React, { useEffect, useState } from "react";
-import ServicesSubmenu from "./ServicesSubmenu";
+import SubmenuServices from "./SubmenuServices";
 
 const Example = () => {
   const pathname = usePathname();
@@ -47,7 +47,7 @@ const Example = () => {
               >
                 Inicio
               </Link>
-              <ServicesSubmenu newMenu={newMenu} />
+              <SubmenuServices newMenu={newMenu} />
               <Link
                 href={"/nosotros"}
                 className={`hover:text-main ${
