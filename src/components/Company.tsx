@@ -1,5 +1,5 @@
 import Image from "next/image";
-import empleados from "../../public/images/soporte-empleados.jpg";
+import empleados from "../../public/images/soporte-empleados.jpeg";
 
 export default function Company() {
   return (
