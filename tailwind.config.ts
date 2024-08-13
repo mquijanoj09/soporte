@@ -21,8 +21,11 @@ const config: Config = {
       },
       keyframes: {
         "loop-scroll": {
-          "100%": { transform: "translate(calc(-100% - 4rem))" },
+          "100%": { transform: "translate(calc(-100% - 8rem))" },
         },
+      },
+      fontSize: {
+        xxs: "10px",
       },
       colors: {
         main: "#aa0000",

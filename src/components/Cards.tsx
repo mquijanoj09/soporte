@@ -1,6 +1,4 @@
 "use client";
-import { motion, useTransform, useScroll } from "framer-motion";
-import { useRef } from "react";
 import Card from "./Card";
 
 const cards = [
@@ -11,7 +9,7 @@ const cards = [
     id: 1,
   },
   {
-    url: "/images/card2.jpeg",
+    url: "/images/card2.jpg",
     title: "Cobertura",
     description:
       "Presencia directa en más de 40 Ciudades y capacidad para llegar a más de 200 Municipios a nivel Nacional.",
@@ -34,26 +32,16 @@ const cards = [
 ];
 
 export default function Cards() {
-  const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-  });
-
-  const x = useTransform(scrollYProgress, [0, 1], ["1%", "-25%"]);
-
   return (
-    <section ref={targetRef} className="relative h-[200vh] bg-white">
-      <div className="sticky top-0 flex h-screen items-center overflow-hidden">
-        <h3 className="text-5xl text-main font-extrabold text-center absolute top-0 p-24">
-          ¿Por qué elegirnos?
-        </h3>
-        <motion.div style={{ x }} className="flex gap-20 ml-20">
-          {cards.map((card) => {
-            return <Card card={card} key={card.id} />;
-          })}
-        </motion.div>
-        <div className="mouse absolute z-50 bottom-24 transform -translate-x-1/2 left-1/2 opacity-80" />
+    <div className="flex-col top-0 cursor-default flex relative bg-white px-20 py-44">
+      <h3 className="xl:text-5xl lg:text-4xl mb-10 text-main font-extrabold">
+        ¿Por qué elegirnos?
+      </h3>
+      <div className="grid xl:grid-cols-4 lg:grid-cols-2 lg:gap-14">
+        {cards.map((card) => {
+          return <Card card={card} key={card.id} />;
+        })}
       </div>
-    </section>
+    </div>
   );
 }

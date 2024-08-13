@@ -13,7 +13,7 @@ const Example = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) {
+      if (window.scrollY > 75) {
         setNewMenu(true);
       } else {
         setNewMenu(false);
@@ -25,10 +25,10 @@ const Example = () => {
   }, []);
 
   return (
-    <div className="relative w-full">
+    <div className="lg:flex relative w-full hidden">
       <div className="flex w-full items-center justify-between px-20 py-7 absolute z-50">
         <Link href="/">
-          <Image src={logo} alt="logo" width={250} priority />
+          <Image src={logo} alt="logo" className="xl:w-64 lg:w-56" priority />
         </Link>
         <div className="flex items-center justify-center">
           <header
@@ -38,7 +38,7 @@ const Example = () => {
                 : "px-10 py-3 backdrop-blur-md bg-opacity-40 text-white"
             }`}
           >
-            <div className="flex gap-12 items-center text-lg font-bold">
+            <div className="flex gap-12 items-center lg:text-base xl:text-lg font-bold">
               <Link
                 href="/"
                 className={`hover:text-main ${
@@ -58,7 +58,7 @@ const Example = () => {
               </Link>
               <Link
                 href={"/contacto"}
-                className={`bg-main px-3 py-2 text-white rounded-full items-center text-lg font-bold hover:bg-lighterMain ${
+                className={`bg-main px-3 py-2 text-white rounded-full items-center lg:text-base xl:text-lg font-bold hover:bg-lighterMain ${
                   !newMenu && "hidden"
                 }`}
               >
@@ -69,7 +69,7 @@ const Example = () => {
         </div>
         <Link
           href={"/contacto"}
-          className="bg-main px-3 py-2 text-white rounded-full items-center text-lg font-bold hover:bg-lighterMain"
+          className="bg-main px-3 py-2 text-white rounded-full items-center lg:text-base xl:text-lg font-bold hover:bg-lighterMain"
         >
           Contáctanos
         </Link>

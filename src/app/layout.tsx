@@ -48,7 +48,10 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body
-        className={classNames(myFont.className, "relative h-[100dvh] bg-white")}
+        className={classNames(
+          myFont.className,
+          "relative h-[100dvh] bg-white w-[100dvw] overflow-x-hidden"
+        )}
       >
         <NavBar />
         <Providers>

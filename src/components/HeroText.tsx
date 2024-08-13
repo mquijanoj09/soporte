@@ -24,8 +24,10 @@ export default function HeroText() {
     >
       <div className="flex items-center justify-center w-1/2 h-full text-white flex-col">
         <div className="flex justify-center items-center flex-col font-extrabold relative">
-          <h3 className="text-3xl -top-14 absolute">Centro de tecnología </h3>
-          <h1 className="text-7xl text-center">
+          <h3 className="xl:text-3xl lg:text-2xl -top-14 absolute">
+            Centro de tecnología{" "}
+          </h3>
+          <h1 className="xl:text-7xl lg:text-6xl text-center">
             Servicios&nbsp;tecnólogicos de alto desempeño.
           </h1>
           <div className="flex gap-5 -bottom-28 w-full text-lg items-center justify-center absolute">

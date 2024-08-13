@@ -9,7 +9,7 @@ export default function Card({ card }: Props) {
   return (
     <div
       key={card.id}
-      className="group relative h-[450px] w-[450px] overflow-hidden bg-neutral-200 rounded-xl"
+      className="group relative h-96 w-full overflow-hidden bg-neutral-200 rounded-xl"
     >
       <div
         style={{
@@ -17,14 +17,14 @@ export default function Card({ card }: Props) {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
+        className="absolute inset-0 z-0"
       ></div>
       <div className="absolute inset-0 z-5 bg-black/50"></div>
-      <div className="absolute inset-0 z-10 flex flex-col gap-6 items-center justify-center p-8">
-        <p className="text-5xl font-black uppercase text-white rounded-xl">
+      <div className="absolute inset-0 z-10 flex flex-col gap-6 items-center justify-center">
+        <p className="absolute lg:text-3xl font-black uppercase text-white top-1/2 duration-200 -translate-y-1/2 group-hover:top-16 group-hover:translate-y-0">
           {card.title}
         </p>
-        <p className="text-white text-xl hidden group-hover:flex">
+        <p className="absolute text-center text-white text-xl px-5 top-96 group-hover:top-1/2 group-hover:-translate-y-1/2 duration-200">
           {card.description}
         </p>
       </div>
