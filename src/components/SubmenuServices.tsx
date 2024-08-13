@@ -49,14 +49,14 @@ export default function SubmenuServices({ newMenu }: Props) {
             <div className="absolute -top-6 left-0 right-0 h-6 bg-transparent" />
             <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white" />
 
-            <div className="relative w-[800px] h-full rounded-3xl bg-white flex justify-between shadow-custom-xl">
-              <div className="flex flex-col w-1/2 h-full p-7 justify-between text-lg">
+            <div className="relative lg:w-[800px] md:w-[600px] sm:w-[450px] h-full rounded-3xl bg-white flex justify-between shadow-custom-xl">
+              <div className="flex flex-col w-1/2 h-full md:p-7 sm:p-4 justify-between lg:text-lg md:text-base sm:text-sm">
                 <div
                   className="hover:bg-zinc-100 cursor-pointer p-3 rounded-lg flex flex-col gap-2"
                   onClick={() => handleOnClick("warranty-services")}
                 >
                   <h3 className="text-main">HP Warranty Service</h3>
-                  <p className="text-sm">
+                  <p className="lg:text-sm text-xs">
                     Garantía Estándar / Garantía Personalizada / Atención de
                     equipos fuera de garantías - Reparación.
                   </p>
@@ -66,7 +66,7 @@ export default function SubmenuServices({ newMenu }: Props) {
                   onClick={() => handleOnClick("outsourcing-services")}
                 >
                   <h3 className="text-main">IT Outsourcing</h3>
-                  <p className="text-sm">
+                  <p className="lg:text-sm text-xs">
                     Mesa de Ayuda / Soporte en Sitio / Monitoreo / Administrador
                     de Redes / Gestión de Activos de TI.
                   </p>
@@ -76,7 +76,7 @@ export default function SubmenuServices({ newMenu }: Props) {
                   onClick={() => handleOnClick("delivery-services")}
                 >
                   <h3 className="text-main">Project Delivery</h3>
-                  <p className="text-sm">
+                  <p className="lg:text-sm text-xs">
                     Migraciones / Roll Out / Creaciones de Imágenes y
                     Replicaciones masivas / Almacenamiento y Continuidad.
                   </p>
@@ -95,7 +95,7 @@ export default function SubmenuServices({ newMenu }: Props) {
                   className="rounded-3xl transition-shadow duration-300 group-hover:shadow-custom-xl filter grayscale"
                 />
 
-                <p className="absolute text-white bottom-0 p-4 z-10 cursor-pointer text-lg font-extrabold flex gap-3 items-center">
+                <p className="absolute text-white bottom-0 p-4 z-10 cursor-pointer lg:text-lg md:text-base sm:text-sm font-extrabold flex gap-3 items-center">
                   <span className="transition-transform duration-300 transform group-hover:translate-x-1 group-hover:-translate-y-1">
                     <ArrowTopRightSvg />
                   </span>

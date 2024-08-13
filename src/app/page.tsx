@@ -18,9 +18,9 @@ export default function Home() {
       <Advantages />
       <Brands />
       <Services />
-      <WarrantyServices />
+      {/* <WarrantyServices />
       <OutsourcingServices />
-      <DeliveryServices />
+      <DeliveryServices /> */}
       <Footer />
     </main>
   );

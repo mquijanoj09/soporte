@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import classNames from "classnames";
 import { NavBar } from "@/components";
 import Providers from "./providers";
+import { Analytics } from "@vercel/analytics/react";
 
 const myFont = localFont({ src: "../fonts/NoveraClassicRegular.otf" });
 
@@ -45,7 +46,7 @@ export default function RootLayout({
           color="#5bbad5"
         />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#2b122b" />
       </head>
       <body
         className={classNames(
@@ -55,7 +56,10 @@ export default function RootLayout({
       >
         <NavBar />
         <Providers>
-          <div>{children}</div>
+          <div>
+            {children}
+            <Analytics />
+          </div>
         </Providers>
       </body>
     </html>
