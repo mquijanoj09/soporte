@@ -6,12 +6,18 @@ import logo from "../../public/images/logo-blanco.png";
 import logo2 from "../../public/images/logo.png";
 import React, { useEffect, useState } from "react";
 import SubmenuServices from "./SubmenuServices";
-import { HeadsetSvg, MenuSvg } from "@/icons";
+import { CloseSvg, HeadsetSvg, MenuSvg } from "@/icons";
+import PhoneMenu from "./PhoneMenu";
 
 const Example = () => {
   const pathname = usePathname();
   const activePage = pathname.split("/")[1];
   const [newMenu, setNewMenu] = useState(false);
+  const [celMenu, setCelMenu] = useState(false);
+
+  function handleSetCelMenu() {
+    setCelMenu((prev) => !prev);
+  }
 
   useEffect(() => {
     const handleScroll = () => {
@@ -25,6 +31,12 @@ const Example = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  useEffect(() => {
+    celMenu
+      ? document.body.classList.add("overflow-hidden")
+      : document.body.classList.remove("overflow-hidden");
+  }, [celMenu]);
 
   return (
     <div className="flex relative w-full">
@@ -92,10 +104,24 @@ const Example = () => {
         >
           <HeadsetSvg white />
         </Link>
-        <div className="sm:hidden block">
-          <MenuSvg />
+        <div className="sm:hidden block" onClick={() => handleSetCelMenu()}>
+          <div
+            className={`${
+              celMenu ? "opacity-100" : "opacity-0"
+            } absolute right-6 top-9 transition-opacity duration-300 ease-in-out`}
+          >
+            <CloseSvg />
+          </div>
+          <div
+            className={`${
+              celMenu ? "opacity-0" : "opacity-100"
+            } absolute right-6 top-9 transition-opacity duration-300 ease-in-out`}
+          >
+            <MenuSvg />
+          </div>
         </div>
       </div>
+      <PhoneMenu setCelMenu={setCelMenu} celMenu={celMenu} />
     </div>
   );
 };

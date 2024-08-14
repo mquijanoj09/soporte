@@ -7,7 +7,7 @@ import { scrollToSectionInstant } from "@/utils/scrollTo";
 import ArrowTopRightSvg from "@/icons/ArrowTopRightSvg";
 
 interface Props {
-  newMenu: boolean;
+  newMenu?: boolean;
 }
 
 export default function SubmenuServices({ newMenu }: Props) {
@@ -48,9 +48,8 @@ export default function SubmenuServices({ newMenu }: Props) {
           >
             <div className="absolute -top-6 left-0 right-0 h-6 bg-transparent" />
             <div className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 bg-white" />
-
-            <div className="relative lg:w-[800px] md:w-[600px] sm:w-[450px] h-full rounded-3xl bg-white flex justify-between shadow-custom-xl">
-              <div className="flex flex-col w-1/2 h-full md:p-7 sm:p-4 justify-between lg:text-lg md:text-base sm:text-sm">
+            <div className="relative lg:w-[800px] md:w-[600px] sm:w-[450px] w-[350px] h-full rounded-3xl bg-white flex justify-between shadow-custom-xl">
+              <div className="flex flex-col w-full sm:w-1/2 h-full md:p-7 p-4 justify-between lg:text-lg md:text-base sm:text-sm">
                 <div
                   className="hover:bg-zinc-100 cursor-pointer p-3 rounded-lg flex flex-col gap-2"
                   onClick={() => handleOnClick("warranty-services")}
@@ -82,7 +81,7 @@ export default function SubmenuServices({ newMenu }: Props) {
                   </p>
                 </div>
               </div>
-              <div className="relative w-1/2 m-2 group">
+              <div className="relative hidden sm:block w-1/2 m-2 group">
                 <div
                   className="absolute inset-0  bg-gradient-to-b from-transparent opacity-50 via-black/60 to-black rounded-3xl cursor-pointer z-10"
                   onClick={() => handleOnClick("services")}

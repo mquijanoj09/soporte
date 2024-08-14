@@ -5,3 +5,4 @@ export { default as InnovationSvg } from "./InnovationSvg";
 export { default as InstagramSvg } from "./InstagramSvg";
 export { default as PlusSvg } from "./PlusSvg";
 export { default as MenuSvg } from "./MenuSvg";
+export { default as CloseSvg } from "./CloseSvg";

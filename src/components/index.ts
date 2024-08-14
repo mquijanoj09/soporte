@@ -12,3 +12,4 @@ export { default as DeliveryServices } from "./DeliveryServices";
 export { default as HeroImage } from "./HeroImage";
 export { default as HeroText } from "./HeroText";
 export { default as Cards } from "./Cards";
+export { default as PhoneMenu } from "./PhoneMenu";

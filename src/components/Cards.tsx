@@ -33,7 +33,7 @@ const cards = [
 
 export default function Cards() {
   return (
-    <div className="flex-col top-0 cursor-default flex relative bg-white sm:px-20 px-10 pt-44 pb-28">
+    <div className="flex-col top-0 cursor-default flex relative bg-white sm:px-20 px-10 md:pt-44 pt-28 pb-28">
       <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl mb-16 text-main font-extrabold text-center">
         ¿Por qué elegirnos?
       </h3>
