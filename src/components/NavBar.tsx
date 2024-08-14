@@ -14,6 +14,7 @@ const Example = () => {
   const activePage = pathname.split("/")[1];
   const [newMenu, setNewMenu] = useState(false);
   const [celMenu, setCelMenu] = useState(false);
+  const [open, setOpen] = useState(false);
 
   function handleSetCelMenu() {
     setCelMenu((prev) => !prev);
@@ -72,7 +73,11 @@ const Example = () => {
               >
                 Inicio
               </Link>
-              <SubmenuServices newMenu={newMenu} />
+              <SubmenuServices
+                newMenu={newMenu}
+                open={open}
+                setOpen={setOpen}
+              />
               <Link
                 href={"/nosotros"}
                 className={`hover:text-main ${
@@ -102,7 +107,7 @@ const Example = () => {
           href={"/contacto"}
           className="bg-main px-3 py-2 xl:ml-28 lg:ml-24 md:hidden sm:block hidden text-white rounded-full items-center sm:text-sm lg:text-base xl:text-lg font-bold hover:bg-lighterMain"
         >
-          <HeadsetSvg white />
+          <HeadsetSvg />
         </Link>
         <div className="sm:hidden block" onClick={() => handleSetCelMenu()}>
           <div

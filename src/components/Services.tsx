@@ -23,7 +23,7 @@ export default function Services() {
         </div>
         <div className="grid xl:grid-cols-2 lg:grid-cols-1 grid-cols-2 xl:gap-16 lg:gap-8 md:gap-12 gap-8">
           <div>
-            <CommunitySvg />
+            <CommunitySvg red />
             <h4 className="xl:text-lg lg:text-base md:text-lg mt-2 font-bold">
               Colaboración
             </h4>
@@ -33,7 +33,7 @@ export default function Services() {
             </p>
           </div>
           <div>
-            <HeadsetSvg />
+            <HeadsetSvg red />
             <h4 className="xl:text-lg lg:text-base md:text-lg mt-2 font-bold">
               Asistencia
             </h4>

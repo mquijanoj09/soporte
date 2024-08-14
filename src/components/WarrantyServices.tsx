@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import hp from "../../public/images/HP.png";
-import { CommunitySvg } from "@/icons";
 
 export default function WarrantyServices() {
   return (

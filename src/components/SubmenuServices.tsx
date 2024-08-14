@@ -8,10 +8,11 @@ import ArrowTopRightSvg from "@/icons/ArrowTopRightSvg";
 
 interface Props {
   newMenu?: boolean;
+  open: boolean;
+  setOpen: (value: boolean) => void;
 }
 
-export default function SubmenuServices({ newMenu }: Props) {
-  const [open, setOpen] = useState(false);
+export default function SubmenuServices({ newMenu, open, setOpen }: Props) {
   function handleOnClick(target: string) {
     setOpen(false);
     scrollToSectionInstant(target);

@@ -6,3 +6,5 @@ export { default as InstagramSvg } from "./InstagramSvg";
 export { default as PlusSvg } from "./PlusSvg";
 export { default as MenuSvg } from "./MenuSvg";
 export { default as CloseSvg } from "./CloseSvg";
+export { default as HomeSvg } from "./HomeSvg";
+export { default as ServicesSvg } from "./ServicesSvg";
