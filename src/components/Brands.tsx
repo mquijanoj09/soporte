@@ -1,9 +1,4 @@
 import Image from "next/image";
-import ibm from "../../public/images/1.png";
-import dxc from "../../public/images/2.png";
-import toshiba from "../../public/images/3.png";
-import hp from "../../public/images/4.png";
-import argos from "../../public/images/5.png";
 import {
   img1,
   img2,
@@ -49,30 +44,30 @@ export default function Brands() {
           Quienes Confían en Nosotros
         </h3>
         <div className="grid xl:grid-cols-6 sm:grid-cols-4 grid-cols-3 md:gap-x-10 px-4 justify-center items-center">
-          <Image src={img1} alt="logo" className="block-appear" />
-          <Image src={img2} alt="logo" className="block-appear" />
-          <Image src={img3} alt="logo" className="block-appear" />
-          <Image src={img4} alt="logo" className="block-appear" />
-          <Image src={img5} alt="logo" className="block-appear" />
-          <Image src={img6} alt="logo" className="block-appear" />
-          <Image src={img7} alt="logo" className="block-appear" />
-          <Image src={img8} alt="logo" className="block-appear" />
-          <Image src={img9} alt="logo" className="block-appear" />
-          <Image src={img11} alt="logo" className="block-appear" />
-          <Image src={img12} alt="logo" className="block-appear" />
-          <Image src={img13} alt="logo" className="block-appear" />
-          <Image src={img14} alt="logo" className="block-appear" />
-          <Image src={img15} alt="logo" className="block-appear" />
-          <Image src={img16} alt="logo" className="block-appear" />
-          <Image src={img17} alt="logo" className="block-appear" />
-          <Image src={img18} alt="logo" className="block-appear" />
-          <Image src={img19} alt="logo" className="block-appear" />
-          <Image src={img20} alt="logo" className="block-appear" />
-          <Image src={img21} alt="logo" className="block-appear" />
-          <Image src={img22} alt="logo" className="block-appear" />
-          <Image src={img23} alt="logo" className="block-appear" />
-          <Image src={img24} alt="logo" className="block-appear" />
-          <Image src={img25} alt="logo" className="block-appear" />
+          <Image src={img1} alt="logo" />
+          <Image src={img2} alt="logo" />
+          <Image src={img3} alt="logo" />
+          <Image src={img4} alt="logo" />
+          <Image src={img5} alt="logo" />
+          <Image src={img6} alt="logo" />
+          <Image src={img7} alt="logo" />
+          <Image src={img8} alt="logo" />
+          <Image src={img9} alt="logo" />
+          <Image src={img11} alt="logo" />
+          <Image src={img12} alt="logo" />
+          <Image src={img13} alt="logo" />
+          <Image src={img14} alt="logo" />
+          <Image src={img15} alt="logo" />
+          <Image src={img16} alt="logo" />
+          <Image src={img17} alt="logo" />
+          <Image src={img18} alt="logo" />
+          <Image src={img19} alt="logo" />
+          <Image src={img20} alt="logo" />
+          <Image src={img21} alt="logo" />
+          <Image src={img22} alt="logo" />
+          <Image src={img23} alt="logo" />
+          <Image src={img24} alt="logo" />
+          <Image src={img25} alt="logo" />
         </div>
       </div>
     </>

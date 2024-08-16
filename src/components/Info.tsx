@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img from "../../public/images/im1.jpg";
+import img from "../../public/images/im1.jpeg";
 import Link from "next/link";
 
 export default function Info() {
