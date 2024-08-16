@@ -3,10 +3,10 @@ import empleados from "../../public/images/soporte-empleados.jpeg";
 
 export default function Company() {
   return (
-    <div className="bg-secondary min-h-screen h-full text-white flex xl:gap-20 relative pt-28 sm:pt-36 pb-20 sm:px-16 px-10 lg:px-36 xl:px-20">
+    <div className="bg-secondary h-full text-white flex xl:gap-20 relative pt-28 sm:pt-36 pb-20 sm:px-16 px-10 lg:px-36 xl:px-20">
       <div className="xl:w-1/2 h-full w-full flex items-center">
         <div className="xl:max-w-2xl h-full flex flex-col gap-7 z-10">
-          <h2 className="font-extrabold xl:text-4xl lg:text-3xl text-2xl">
+          <h2 className="font-extrabold xl:text-4xl text-3xl">
             SOPORTE SA fue fundada en 1995 para ofrecer servicios de calidad a
             los equipos de TI
           </h2>
