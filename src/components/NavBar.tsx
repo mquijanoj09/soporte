@@ -14,7 +14,6 @@ const Example = () => {
   const activePage = pathname.split("/")[1];
   const [newMenu, setNewMenu] = useState(false);
   const [celMenu, setCelMenu] = useState(false);
-  const [open, setOpen] = useState(false);
 
   function handleSetCelMenu() {
     setCelMenu((prev) => !prev);
@@ -73,11 +72,7 @@ const Example = () => {
               >
                 Inicio
               </Link>
-              <SubmenuServices
-                newMenu={newMenu}
-                open={open}
-                setOpen={setOpen}
-              />
+              <SubmenuServices newMenu={newMenu} />
               <Link
                 href={"/nosotros"}
                 className={`hover:text-main ${
@@ -109,24 +104,29 @@ const Example = () => {
         >
           <HeadsetSvg />
         </Link>
-        <div className="sm:hidden block" onClick={() => handleSetCelMenu()}>
+        <div
+          className="sm:hidden block cursor-pointer"
+          onClick={() => handleSetCelMenu()}
+        >
           <div
             className={`${
               celMenu ? "opacity-100" : "opacity-0"
-            } absolute right-6 top-9 transition-opacity duration-300 ease-in-out`}
+            } absolute right-6 top-9 transition-opacity duration-300 ease-in-out block sm:hidden`}
           >
             <CloseSvg />
           </div>
           <div
             className={`${
               celMenu ? "opacity-0" : "opacity-100"
-            } absolute right-6 top-9 transition-opacity duration-300 ease-in-out`}
+            } absolute right-6 top-9 transition-opacity duration-300 ease-in-out block sm:hidden`}
           >
             <MenuSvg />
           </div>
         </div>
       </div>
-      <PhoneMenu setCelMenu={setCelMenu} celMenu={celMenu} />
+      <div className="block sm:hidden">
+        <PhoneMenu setCelMenu={setCelMenu} celMenu={celMenu} />
+      </div>
     </div>
   );
 };

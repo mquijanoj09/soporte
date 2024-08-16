@@ -14,6 +14,19 @@
     }
   }
 
+  @keyframes ticker {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  .ticker-track {
+    animation: ticker 18s linear infinite;
+  }
+
   .block-appear {
     animation: appear linear;
     animation-timeline: view();

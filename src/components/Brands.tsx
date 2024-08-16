@@ -30,6 +30,7 @@ import {
   img24,
   img25,
 } from "../../public/images/logos/index";
+import BrandsSwiper from "./BrandsSwiper";
 
 export default function Brands() {
   return (
@@ -38,7 +39,8 @@ export default function Brands() {
         <h3 className="font-extrabold xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-center">
           Nuestros aliados
         </h3>
-        <div className="flex overflow-hidden gap-32">
+        <BrandsSwiper />
+        {/* <div className="flex overflow-hidden gap-32">
           <div className="flex animate-loop-scroll gap-32">
             <div className="border-t border-white absolute top-0 w-[500dvw] z-[60]" />
             <div className="border-b border-white absolute bottom-32 sm:bottom-48 md:bottom-44 lg:bottom-36 xl:bottom-32 w-[500dvw] z-[60]" />
@@ -203,7 +205,7 @@ export default function Brands() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         className="bg-main xl:p-28 py-28 md:px-10 flex flex-col items-center justify-center"

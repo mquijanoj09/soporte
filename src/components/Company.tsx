@@ -3,7 +3,7 @@ import empleados from "../../public/images/soporte-empleados.jpeg";
 
 export default function Company() {
   return (
-    <div className="bg-secondary min-h-screen h-full text-white flex relative pt-44 pb-20 sm:px-16 px-10 lg:px-36 xl:px-28">
+    <div className="bg-secondary min-h-screen h-full text-white flex relative pt-28 sm:pt-44 pb-20 sm:px-16 px-10 lg:px-36 xl:px-28">
       <div className="xl:w-2/3 h-full w-full flex items-center">
         <div className="xl:max-w-2xl h-full flex flex-col gap-7 z-10">
           <h2 className="font-extrabold text-4xl">

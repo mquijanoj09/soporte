@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Info() {
   return (
-    <div className="bg-secondary text-white h-screen flex">
-      <div className="w-1/3 flex items-center justify-center flex-col h-full px-28 gap-48">
+    <div className="bg-secondary min-h-screen h-full text-white flex relative pt-28 sm:pt-44 pb-20 sm:px-16 px-10 lg:px-36 xl:px-28">
+      <div className="w-1/3 flex items-center justify-center flex-col h-full gap-48">
         <div className="flex justify-center flex-col">
           <h3 className="text-2xl font-extrabold">Centro de Innovación</h3>
           <h1 className="text-6xl font-extrabold">
