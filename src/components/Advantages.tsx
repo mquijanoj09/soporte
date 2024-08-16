@@ -31,7 +31,7 @@ export default function Advantages() {
 
   return (
     <div
-      className="h-[40dvh] flex relative bg-[url('/images/datos.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover"
+      className="h-[40dvh] flex relative bg-[url('/images/datos.jpeg')] sm:bg-fixed bg-center sm:bg-no-repeat bg-cover"
       ref={ref}
     >
       <div className="grid sm:grid-cols-3 grid-cols-1 text-darkerMain z-20 w-full h-full justify-center items-center text-center xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold">
