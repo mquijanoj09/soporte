@@ -51,7 +51,7 @@ export default function RootLayout({
       <body
         className={classNames(
           myFont.className,
-          "relative h-[100dvh] bg-white w-[100dvw] overflow-x-hidden"
+          "relative h-[100dvh] bg-secondary w-[100dvw] overflow-x-hidden"
         )}
       >
         <NavBar />

@@ -3,8 +3,8 @@ import empleados from "../../public/images/soporte-empleados.jpeg";
 
 export default function Company() {
   return (
-    <div className="bg-secondary min-h-screen h-full text-white flex relative pt-28 sm:pt-44 pb-20 sm:px-16 px-10 lg:px-36 xl:px-28">
-      <div className="xl:w-2/3 h-full w-full flex items-center">
+    <div className="bg-secondary min-h-screen h-full text-white flex xl:gap-20 relative pt-28 sm:pt-36 pb-20 sm:px-16 px-10 lg:px-36 xl:px-20">
+      <div className="xl:w-1/2 h-full w-full flex items-center">
         <div className="xl:max-w-2xl h-full flex flex-col gap-7 z-10">
           <h2 className="font-extrabold text-4xl">
             SOPORTE SA fue fundada en 1995 para ofrecer servicios de calidad a
@@ -43,13 +43,10 @@ export default function Company() {
           </div>
         </div>
       </div>
-      <div className="bg-white w-1/3 relative hidden xl:block">
-        <Image
-          src={empleados}
-          alt="Soporte SA"
-          className="absolute transform translate-x-36 -translate-y-1/2 top-1/2 -left-1/2 animated-images"
-        />
+      <div className="w-1/2 relative hidden xl:block z-20">
+        <Image src={empleados} alt="Soporte SA" className="" />
       </div>
+      <div className="bg-white absolute w-1/3 right-0 top-0 h-screen hidden xl:block"></div>
     </div>
   );
 }

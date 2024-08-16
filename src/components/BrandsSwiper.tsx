@@ -7,7 +7,7 @@ import argos from "../../public/images/5.png";
 
 const BrandsSwiper = () => {
   return (
-    <div className="flex">
+    <div className="flex overflow-x-hidden">
       <div className="flex ticker-track">
         <div className="flex flex-col gap-5">
           <Image
