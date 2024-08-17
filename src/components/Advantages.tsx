@@ -31,7 +31,7 @@ export default function Advantages() {
 
   return (
     <div
-      className={`h-[40dvh] flex relative bg-[url('/images/datos.jpeg')] bg-center bg-cover ${
+      className={`lg:h-[250px] sm:h-[200px] h-[300px] flex relative bg-[url('/images/datos.jpeg')] bg-center bg-cover ${
         !isMobile && "bg-fixed bg-no-repeat"
       }`}
       ref={ref}
@@ -70,7 +70,7 @@ export default function Advantages() {
           </h5>
         </div>
       </div>
-      <div className="h-[40dvh] bg-purple-50 w-full opacity-50 absolute z-10" />
+      <div className="lg:h-[250px] sm:h-[200px] h-[300px] bg-purple-50 w-full opacity-50 absolute z-10" />
     </div>
   );
 }
