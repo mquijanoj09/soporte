@@ -1,9 +1,7 @@
 "use client";
 import { useRef, useEffect, useState } from "react";
-import Image from "next/image";
 import CountUp from "react-countup";
 import { scrollToSectionSmooth } from "@/utils/scrollTo";
-import { isMobile } from "react-device-detect";
 
 export default function Advantages() {
   const [isVisible, setIsVisible] = useState(false);
@@ -12,6 +10,18 @@ export default function Advantages() {
   const currentYear = date.getFullYear();
   const fundationYear = 1995;
   const years = currentYear - fundationYear;
+  const [isMobile, setIsMobile] = useState<boolean>(false);
+
+  function isMobileDevice(): boolean {
+    const userAgent = navigator.userAgent;
+    const mobileDevices =
+      /(android|bb\d+|meego|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|nokia|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino)/i;
+    return mobileDevices.test(userAgent);
+  }
+
+  useEffect(() => {
+    setIsMobile(isMobileDevice());
+  }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
