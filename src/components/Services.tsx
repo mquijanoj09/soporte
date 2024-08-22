@@ -2,7 +2,7 @@
 import Image from "next/image";
 import img1 from "../../public/images/pc.jpg";
 import img2 from "../../public/images/im2.jpg";
-import img3 from "../../public/images/im3.jpg";
+import img3 from "../../public/images/im3.jpeg";
 import { CommunitySvg, HeadsetSvg, InnovationSvg, StatsUpSvg } from "@/icons";
 import { scrollToSectionSmooth } from "@/utils/scrollTo";
 

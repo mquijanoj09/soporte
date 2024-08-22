@@ -13,9 +13,9 @@ export default function Info() {
   }
 
   return (
-    <div className="lg:bg-secondary min-h-screen h-full text-white flex flex-col md:flex-row relative pt-28 sm:pt-36 pb-20 px-10 xl:px-20 bg-[url('/images/im1.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover gap-10">
+    <div className="lg:bg-secondary min-h-screen h-full text-white flex flex-col md:flex-row relative pt-28 sm:pt-36 sm:pb-10 px-10 xl:px-20 bg-[url('/images/im1.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover gap-10">
       <div className="bg-neutral-950/70 absolute inset-0" />
-      <div className="md:w-2/5 flex items-center justify-center flex-col h-full gap-48 z-30">
+      <div className="md:w-2/5 flex items-center flex-col h-full gap-48 z-30">
         <div className="flex justify-center flex-col">
           <h3 className="xl:text-4xl lg:text-3xl text-2xl font-extrabold mb-4">
             Centro de Innovación
@@ -28,7 +28,7 @@ export default function Info() {
           </h3>
           <h2 className="xl:text-2xl lg:text-xl text-lg max-w-xl">
             Presencia directa en más de 50 Ciudades y capacidad para llegar a
-            más de 300 Municipios a nivel Nacional
+            más de 300 Municipios a nivel Nacional.
           </h2>
           <div className="lg:mt-20 mt-10 mb-5">
             <p className="lg:text-xl text-lg font-extrabold">

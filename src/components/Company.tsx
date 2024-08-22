@@ -2,6 +2,10 @@ import Image from "next/image";
 import empleados from "../../public/images/soporte-empleados.jpeg";
 
 export default function Company() {
+  const date = new Date();
+  const currentYear = date.getFullYear();
+  const years = currentYear - 1995;
+
   return (
     <div className="bg-secondary h-full text-white flex xl:gap-20 relative pt-28 sm:pt-36 pb-20 sm:px-16 px-10 lg:px-36 xl:px-20">
       <div className="xl:w-1/2 h-full w-full flex items-center">
@@ -26,13 +30,14 @@ export default function Company() {
             Desde noviembre de 2006 y hasta la fecha, Soporte SA fue
             seleccionada como el único servicio autorizado en Colombia para
             ofrecer servicios de garantía para el PSG comercial e ISS. Hoy,
-            después de 21 años de operación, Soporte SA cuenta con una cobertura
-            de servicios de garantía en 31 ciudades colombianas.
+            después de {years} años de operación, Soporte SA cuenta con una
+            cobertura de servicios de garantía en más de 50 ciudades
+            colombianas.
           </p>
           <p>
             En 2007 se inició la Gerecia de Proyectos Especiales con el
             propósito de ofrecer nuevos servicios. (Outsoucing de Servicios de
-            TI, entrega, gestión de proyectos, etc)
+            TI, entrega, gestión de proyectos, etc.)
           </p>
           <div className="w-full h-full flex items-center justify-center mt-10 relative xl:hidden">
             <Image

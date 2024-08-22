@@ -52,7 +52,7 @@ export default function OutsourcingServices() {
           </div>
         </div>
         <div className="w-2/5 flex flex-col gap-20">
-          <h3 className="text-6xl font-extrabold">IT OUTOURCING</h3>
+          <h3 className="text-6xl font-extrabold">IT OUTSOURCING</h3>
           <div className="flex flex-col gap-10 text-xl">
             <p>
               Entre sus más importantes beneficios, está la reducción de costos

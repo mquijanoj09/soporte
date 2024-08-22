@@ -82,7 +82,7 @@ export default function Footer() {
             </a>
             <a
               target="_blank"
-              href="https://wa.me/573002133485?text=Hola,%20tengo%20una%20pregunta!"
+              href="https://wa.me/573184870221?text=Hola,%20tengo%20una%20pregunta!"
               className="xl:text-base lg:text-sm sm:text-base text-sm hover:text-main flex gap-2 items-center"
             >
               <div className="w-4">

@@ -73,7 +73,6 @@ const Example = () => {
               >
                 Inicio
               </Link>
-              {isHome && <SubmenuServices newMenu={newMenu} />}
               <Link
                 href={"/nosotros"}
                 className={`hover:text-main ${
@@ -82,6 +81,7 @@ const Example = () => {
               >
                 Nosotros
               </Link>
+              {isHome && <SubmenuServices newMenu={newMenu} />}
               <Link
                 href={"/contacto"}
                 className={`bg-main px-3 py-2 text-white rounded-full items-center sm:text-sm lg:text-base xl:text-lg font-bold hover:bg-lighterMain ${
