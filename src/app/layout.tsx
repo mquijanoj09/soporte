@@ -23,6 +23,12 @@ export default function RootLayout({
     <html lang="es">
       <head>
         <link
+          rel="preload"
+          href="/fonts/NoveraClassicRegular.otf"
+          as="font"
+          type="font/otf"
+        />
+        <link
           rel="apple-touch-icon"
           sizes="180x180"
           href="/favicon_package_v0.16/apple-touch-icon.png"
