@@ -45,6 +45,7 @@ export default function Brands() {
         </h3>
         <div className="grid xl:grid-cols-6 sm:grid-cols-4 grid-cols-3 md:gap-x-10 px-4 justify-center items-center">
           <Image src={img1} alt="logo" className="block-appear" />
+          <Image src={img25} alt="logo" className="block-appear" />
           <Image src={img2} alt="logo" className="block-appear" />
           <Image src={img3} alt="logo" className="block-appear" />
           <Image src={img4} alt="logo" className="block-appear" />
@@ -67,7 +68,6 @@ export default function Brands() {
           <Image src={img22} alt="logo" className="block-appear" />
           <Image src={img23} alt="logo" className="block-appear" />
           <Image src={img24} alt="logo" className="block-appear" />
-          <Image src={img25} alt="logo" className="block-appear" />
         </div>
       </div>
     </>
