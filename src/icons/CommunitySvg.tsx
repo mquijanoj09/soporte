@@ -1,13 +1,14 @@
 interface Props {
   activePage?: string;
   red?: boolean;
+  width?: boolean;
 }
 
-export default function CommunitySvg({ activePage, red }: Props) {
+export default function CommunitySvg({ activePage, red, width }: Props) {
   return (
     <svg
-      width="32px"
-      height="32px"
+      width={`${width ? "16px" : "32px"}`}
+      height={`${width ? "16px" : "32px"}`}
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       fill="none"

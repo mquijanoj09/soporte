@@ -12,6 +12,7 @@ import PhoneMenu from "./PhoneMenu";
 const Example = () => {
   const pathname = usePathname();
   const activePage = pathname.split("/")[1];
+  const isHome = activePage === "";
   const [newMenu, setNewMenu] = useState(false);
   const [celMenu, setCelMenu] = useState(false);
 
@@ -72,7 +73,7 @@ const Example = () => {
               >
                 Inicio
               </Link>
-              <SubmenuServices newMenu={newMenu} />
+              {isHome && <SubmenuServices newMenu={newMenu} />}
               <Link
                 href={"/nosotros"}
                 className={`hover:text-main ${

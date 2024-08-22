@@ -1,12 +1,13 @@
 interface Props {
   activePage?: string;
+  width?: boolean;
 }
 
-export default function HomeSvg({ activePage }: Props) {
+export default function HomeSvg({ activePage, width }: Props) {
   return (
     <svg
-      width="24px"
-      height="24px"
+      width={`${width ? "16px" : "32px"}`}
+      height={`${width ? "16px" : "32px"}`}
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       fill="none"

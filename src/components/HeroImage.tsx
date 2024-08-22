@@ -39,7 +39,9 @@ export default function HeroImage() {
       }`}
     >
       <motion.div
-        className="absolute inset-0 rounded-b-3xl bg-neutral-950/70"
+        className={`absolute inset-0 bg-neutral-950/70 ${
+          isBottomVisible ? "rounded-b-3xl" : ""
+        }`}
         style={{
           opacity,
         }}

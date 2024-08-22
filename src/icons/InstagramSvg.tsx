@@ -1,8 +1,12 @@
-export default function InstagramSvg() {
+interface Props {
+  width?: boolean;
+}
+
+export default function InstagramSvg({ width }: Props) {
   return (
     <svg
-      width="28px"
-      height="28px"
+      width={`${width ? "16px" : "28px"}`}
+      height={`${width ? "16px" : "28px"}`}
       strokeWidth="1.5"
       viewBox="0 0 24 24"
       fill="none"

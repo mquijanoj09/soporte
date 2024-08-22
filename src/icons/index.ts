@@ -8,3 +8,5 @@ export { default as MenuSvg } from "./MenuSvg";
 export { default as CloseSvg } from "./CloseSvg";
 export { default as HomeSvg } from "./HomeSvg";
 export { default as ServicesSvg } from "./ServicesSvg";
+export { default as ChatSvg } from "./ChatSvg";
+export { default as CitySvg } from "./CitySvg";

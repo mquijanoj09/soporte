@@ -1,13 +1,14 @@
 interface Props {
   red?: boolean;
   activePage?: string;
+  width?: boolean;
 }
 
-export default function HeadsetSvg({ red, activePage }: Props) {
+export default function HeadsetSvg({ red, activePage, width }: Props) {
   return (
     <svg
-      width={`${red ? "28px" : "32px"}`}
-      height={`${red ? "28px" : "32px"}`}
+      width={`${red ? "28px" : width ? "16px" : "32px"}`}
+      height={`${red ? "28px" : width ? "16px" : "32px"}`}
       viewBox="0 0 24 24"
       strokeWidth="1.5"
       fill="none"

@@ -19,8 +19,8 @@ export default function PhoneMenu({ setCelMenu, celMenu }: Props) {
   return (
     <div
       className={`${
-        celMenu ? "opacity-100" : "opacity-0"
-      } bg-secondary text-white h-screen z-40 w-full absolute transition-opacity duration-700 ease-in-out`}
+        celMenu ? "opacity-100 z-40" : "opacity-0 z-0"
+      } bg-secondary text-white h-screen  w-full absolute transition-opacity duration-700 ease-in-out`}
     >
       <div className="flex flex-col h-full gap-16 items-center justify-center text-xl font-bold">
         <div className="flex flex-col gap-2 justify-center items-center"></div>
