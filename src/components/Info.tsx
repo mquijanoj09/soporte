@@ -1,8 +1,17 @@
+"use client";
 import Image from "next/image";
 import img from "../../public/images/im1.jpeg";
-import Link from "next/link";
+import { MailSvg, PhoneSvg } from "@/icons";
 
 export default function Info() {
+  function contactMailAction() {
+    window.location.href = "mailto:procesos@soporte.com.co";
+  }
+
+  function contactCallAction() {
+    window.location.href = "tel:+573184870221";
+  }
+
   return (
     <div className="lg:bg-secondary min-h-screen h-full text-white flex flex-col md:flex-row relative pt-28 sm:pt-36 pb-20 px-10 xl:px-20 bg-[url('/images/im1.jpeg')] bg-fixed bg-center bg-no-repeat bg-cover gap-10">
       <div className="bg-neutral-950/70 absolute inset-0" />
@@ -18,18 +27,28 @@ export default function Info() {
             Cobertura Nacional
           </h3>
           <h2 className="xl:text-2xl lg:text-xl text-lg max-w-xl">
-            Presencia directa en más de 40 Ciudades y capacidad para llegar a
-            más de 200 Municipios a nivel Nacional
+            Presencia directa en más de 50 Ciudades y capacidad para llegar a
+            más de 300 Municipios a nivel Nacional
           </h2>
           <div className="lg:mt-20 mt-10 mb-5">
-            <p className="lg:text-xl text-lg font-extrabold">Info@soporte.co</p>
-            <p className="lg:text-xl text-lg font-extrabold">+57 300 465363</p>
-            <Link
-              href={"/contacto"}
-              className="bg-main text-white hover:bg-lighterMain rounded-full p-4 mt-5 block w-fit lg:text-base text-sm"
-            >
-              Ponte en contacto
-            </Link>
+            <p className="lg:text-xl text-lg font-extrabold">
+              procesos@soporte.com.co
+            </p>
+            <p className="lg:text-xl text-lg font-extrabold">+57 318 4870221</p>
+            <div className="flex gap-5 mt-5">
+              <button
+                onClick={() => contactCallAction()}
+                className="bg-main text-white hover:bg-lighterMain flex justify-center items-center rounded-full p-4 w-fit lg:text-base text-sm"
+              >
+                <PhoneSvg />
+              </button>
+              <button
+                onClick={() => contactMailAction()}
+                className="bg-main text-white hover:bg-lighterMain flex justify-center items-center rounded-full p-4 w-fit lg:text-base text-sm"
+              >
+                <MailSvg />
+              </button>
+            </div>
           </div>
         </div>
       </div>

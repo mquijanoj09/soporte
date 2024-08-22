@@ -12,7 +12,7 @@ const cards = [
     url: "/images/card2.jpg",
     title: "Cobertura",
     description:
-      "Presencia directa en más de 40 Ciudades y capacidad para llegar a más de 200 Municipios a nivel Nacional.",
+      "Presencia directa en más de 50 Ciudades y capacidad para llegar a más de 300 Municipios a nivel Nacional.",
     id: 2,
   },
   {
@@ -23,7 +23,7 @@ const cards = [
     id: 3,
   },
   {
-    url: "/images/card4.jpg",
+    url: "/images/card4.jpeg",
     title: "Servicio",
     description:
       "Contamos con un equipo de profesionales altamente capacitados para brindar un servicio de calidad.",

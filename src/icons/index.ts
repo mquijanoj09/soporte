@@ -10,3 +10,5 @@ export { default as HomeSvg } from "./HomeSvg";
 export { default as ServicesSvg } from "./ServicesSvg";
 export { default as ChatSvg } from "./ChatSvg";
 export { default as CitySvg } from "./CitySvg";
+export { default as PhoneSvg } from "./PhoneSvg";
+export { default as MailSvg } from "./MailSvg";
