@@ -5,14 +5,8 @@ import classNames from "classnames";
 import { NavBar } from "@/components";
 import Providers from "./providers";
 import { Analytics } from "@vercel/analytics/react";
-import { Inter } from "next/font/google";
 
 const myFont = localFont({ src: "../fonts/NoveraClassicRegular.otf" });
-
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-});
 
 export const metadata: Metadata = {
   title: "Soporte SA - Servicios tecnológicos de alto desempeño.",
@@ -28,12 +22,6 @@ export default function RootLayout({
   return (
     <html lang="es">
       <head>
-        <link
-          rel="preload"
-          href="/fonts/NoveraClassicRegular.otf"
-          as="font"
-          type="font/otf"
-        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -62,16 +50,14 @@ export default function RootLayout({
       </head>
       <body
         className={classNames(
-          inter.className,
+          myFont.className,
           "relative h-[100dvh] bg-secondary w-[100dvw] overflow-x-hidden"
         )}
       >
         <NavBar />
         <Providers>
-          <div>
-            {children}
-            <Analytics />
-          </div>
+          {children}
+          <Analytics />
         </Providers>
       </body>
     </html>

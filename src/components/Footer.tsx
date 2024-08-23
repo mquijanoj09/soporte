@@ -15,7 +15,7 @@ export default function Footer() {
   const currentYear = date.getFullYear();
 
   return (
-    <div className="bg-darkerSecondary w-full text-white lg:px-28 sm:px-20 px-14 py-14 flex flex-col">
+    <div className="bg-darkerSecondary w-full text-white lg:px-28 sm:px-20 px-10 py-14 flex flex-col">
       <div className="flex lg:flex-row flex-col justify-between lg:gap-0 gap-16">
         <div>
           <Image
