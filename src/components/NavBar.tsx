@@ -101,6 +101,7 @@ const Example = () => {
         </Link>
         <Link
           href={"/contacto"}
+          aria-label="Contact page"
           className="bg-main px-3 py-2 xl:ml-28 lg:ml-24 md:hidden sm:block hidden text-white rounded-full items-center sm:text-sm lg:text-base xl:text-lg font-bold hover:bg-lighterMain"
         >
           <HeadsetSvg />

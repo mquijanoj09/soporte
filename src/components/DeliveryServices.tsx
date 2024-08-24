@@ -1,6 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import dxc from "../../public/images/DXC.png";
+import {
+  Delivery1Svg,
+  Delivery2Svg,
+  Delivery3Svg,
+  Delivery4Svg,
+  Delivery5Svg,
+  Delivery6Svg,
+} from "@/icons";
+// Toshiba: exito,ktronix, cine colombia
 
 export default function DeliveryServices() {
   return (
@@ -11,7 +20,7 @@ export default function DeliveryServices() {
       <div className="flex xl:flex-row flex-col w-full xl:gap-36 gap-20">
         <div className="flex flex-col xl:gap-20 gap-12">
           <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
-            PROJECT DELIVERY
+            Project Delivery
           </h3>
           <div className="flex flex-col xl:gap-10 gap-5 xl:text-xl lg:text-lg sm:text-base text-sm">
             <p>
@@ -27,20 +36,12 @@ export default function DeliveryServices() {
         </div>
         <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-y-14 xl:gap-x-24 gap-x-10 h-fit">
           <div className="min-w-36">
-            <div className="flex gap-6 items-center">
+            <div>
+              <div className="mb-3">
+                <Delivery2Svg />
+              </div>
               <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
-                Migraciones Masivas
-              </h4>
-            </div>
-            <p className="lg:text-base sm:text-sm text-xs">
-              Actualizaciones masivas de sistema operativo para empresas grandes
-              y medias a nivel nacional.
-            </p>
-          </div>
-          <div className="min-w-36">
-            <div className="flex gap-6 items-center">
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
-                Entregas Personalizadas - Roll Out
+                Entregas Personalizadas
               </h4>
             </div>
             <p className="lg:text-base sm:text-sm text-xs">
@@ -50,18 +51,10 @@ export default function DeliveryServices() {
             </p>
           </div>
           <div className="min-w-36">
-            <div className="flex gap-6 items-center">
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
-                Creación de imágenes y replicaciones masivas
-              </h4>
-            </div>
-            <p className="lg:text-base sm:text-sm text-xs">
-              Creación de imágenes a partir de Software base, y replicaciones
-              masiva en las instalaciones de los clientes.
-            </p>
-          </div>
-          <div className="min-w-36">
-            <div className="flex gap-6 items-center">
+            <div>
+              <div className="mb-3">
+                <Delivery3Svg />
+              </div>
               <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Almacenamiento y Continuidad
               </h4>
@@ -72,18 +65,10 @@ export default function DeliveryServices() {
             </p>
           </div>
           <div className="min-w-36">
-            <div className="flex gap-6 items-center">
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
-                Inventarios Pared a Pared (W2W)
-              </h4>
-            </div>
-            <p className="lg:text-base sm:text-sm text-xs">
-              Inventarios de bienes tecnológicos, con etiquetado y entrega de la
-              base de datos.
-            </p>
-          </div>
-          <div className="min-w-36">
-            <div className="flex gap-6 items-center">
+            <div>
+              <div className="mb-3">
+                <Delivery4Svg />
+              </div>
               <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Creación de imágenes y replicaciones masivas
               </h4>
@@ -93,24 +78,61 @@ export default function DeliveryServices() {
               masiva en las instalaciones de los clientes.
             </p>
           </div>
+          <div className="min-w-36">
+            <div>
+              <div className="mb-3">
+                <Delivery1Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+                Migraciones Masivas
+              </h4>
+            </div>
+            <p className="lg:text-base sm:text-sm text-xs">
+              Actualizaciones masivas de sistema operativo para empresas grandes
+              y medias a nivel nacional.
+            </p>
+          </div>
+          <div className="min-w-36">
+            <div>
+              <div className="mb-3">
+                <Delivery5Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+                Mantenimientos Preventivos Especializados
+              </h4>
+            </div>
+            <p className="lg:text-base sm:text-sm text-xs">
+              Mantenimiento preventivo para equipos POS a nivel nacional.
+              Atención de incidentes y Mantenimientos de UPS a nivel nacional.
+            </p>
+          </div>
+          <div className="min-w-36">
+            <div>
+              <div className="mb-3">
+                <Delivery6Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+                Inventarios Pared a Pared
+              </h4>
+            </div>
+            <p className="lg:text-base sm:text-sm text-xs">
+              Inventarios de bienes tecnológicos, con etiquetado y entrega de la
+              base de datos.
+            </p>
+          </div>
         </div>
       </div>
-      <div className="flex flex-col mt-20">
-        <h5 className="lg:text-lg max-w-72 mb-10">
-          Instalación y manejo para el extensiones de garantía.
-        </h5>
-        <div className="flex sm:gap-14 gap-6">
-          <div className="border-r-2">
-            <Image
-              src={dxc}
-              alt="DXC"
-              className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
-            />
-          </div>
-          <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-          <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-          <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+      <div className="flex sm:gap-14 gap-6 mt-20">
+        <div className="border-r-2">
+          <Image
+            src={dxc}
+            alt="DXC"
+            className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
+          />
         </div>
+        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
       </div>
     </div>
   );

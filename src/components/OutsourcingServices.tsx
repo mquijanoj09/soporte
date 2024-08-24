@@ -1,7 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import dxc from "../../public/images/DXC.png";
-import { HeadsetSvg } from "@/icons";
+import {
+  Oursourcing1Svg,
+  Oursourcing2Svg,
+  Oursourcing3Svg,
+  Oursourcing4Svg,
+} from "@/icons";
+// AVIANCA- FUNDACION GRUPO SOCIAL -PEPSICO – COCACOLA – FEMSA
+// Tuya, argos, (proteccion y aval)
 
 export default function OutsourcingServices() {
   return (
@@ -10,13 +17,16 @@ export default function OutsourcingServices() {
       id="outsourcing-services"
     >
       <div className="flex xl:flex-row flex-col w-full xl:gap-32 gap-20">
-        {/* <div className="xl:flex flex-col gap-20 w-1/2 hidden">
+        <div className="xl:flex flex-col gap-20 w-1/2 hidden">
           <h3 className="text-4xl font-extrabold">
             Mediante el Outsourcing de TI ofrecemos una gran ayuda para las
             empresas.
           </h3>
           <div className="grid grid-cols-2 gap-14 xl:max-w-2xl">
             <div>
+              <div className="mb-3">
+                <Oursourcing1Svg />
+              </div>
               <h4 className="text-2xl font-extrabold mb-3">Mesa de ayuda</h4>
               <p>
                 Somos centro autorizado de servicios HP inc a nivel nacional
@@ -25,6 +35,9 @@ export default function OutsourcingServices() {
               </p>
             </div>
             <div>
+              <div className="mb-3">
+                <Oursourcing2Svg />
+              </div>
               <h4 className="text-2xl font-extrabold mb-3">Soporte en sitio</h4>
               <p>
                 Proveemos personal calificado, con experiencia en la atención de
@@ -33,6 +46,9 @@ export default function OutsourcingServices() {
               </p>
             </div>
             <div>
+              <div className="mb-3">
+                <Oursourcing3Svg />
+              </div>
               <h4 className="text-2xl font-extrabold mb-3">
                 Administrador de redes
               </h4>
@@ -43,17 +59,20 @@ export default function OutsourcingServices() {
               </p>
             </div>
             <div>
+              <div className="mb-3">
+                <Oursourcing4Svg />
+              </div>
               <h4 className="text-2xl font-extrabold mb-3">Monitoreo</h4>
               <p>
                 Cubre el monitoreo de alarmas que se presentan a través de las
                 diferentes herramientas de monitoreo del cliente.
               </p>
             </div>
-          </div> 
-        </div> */}
+          </div>
+        </div>
         <div className="flex flex-col xl:gap-20 gap-12 xl:w-1/2">
           <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
-            IT OUTSOURCING
+            IT Outsourcing
           </h3>
           <div className="flex flex-col gap-10 lg:text-lg sm:text-base text-sm">
             <p>
@@ -76,7 +95,10 @@ export default function OutsourcingServices() {
           </h3>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-14">
             <div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg  font-extrabold mb-3">
+              <div className="mb-3">
+                <Oursourcing1Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Mesa de ayuda
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -86,7 +108,10 @@ export default function OutsourcingServices() {
               </p>
             </div>
             <div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg  font-extrabold mb-3">
+              <div className="mb-3">
+                <Oursourcing2Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Soporte en sitio
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -96,7 +121,10 @@ export default function OutsourcingServices() {
               </p>
             </div>
             <div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg  font-extrabold mb-3">
+              <div className="mb-3">
+                <Oursourcing3Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Administrador de redes
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -106,7 +134,10 @@ export default function OutsourcingServices() {
               </p>
             </div>
             <div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg  font-extrabold mb-3">
+              <div className="mb-3">
+                <Oursourcing4Svg />
+              </div>
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Monitoreo
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -117,22 +148,17 @@ export default function OutsourcingServices() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-20">
-        <h5 className="lg:text-lg max-w-72 mb-10">
-          Instalación y manejo para el extensiones de garantía.
-        </h5>
-        <div className="flex sm:gap-14 gap-6">
-          <div className="border-r-2">
-            <Image
-              src={dxc}
-              alt="DXC"
-              className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
-            />
-          </div>
-          <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-          <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-          <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+      <div className="flex lg:justify-end mt-20 sm:gap-14 gap-6">
+        <div className="border-r-2">
+          <Image
+            src={dxc}
+            alt="DXC"
+            className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
+          />
         </div>
+        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
       </div>
     </div>
   );

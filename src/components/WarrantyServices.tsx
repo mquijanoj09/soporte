@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import hp from "../../public/images/HP.png";
+import { Warranty1Svg, Warranty2Svg, Warranty3Svg } from "@/icons";
+// Isa, compensar, bancolombia, banco mundo mujer
 
 export default function WarrantyServices() {
   return (
@@ -11,7 +13,7 @@ export default function WarrantyServices() {
       <div className="flex xl:flex-row flex-col w-full xl:gap-32 gap-20">
         <div className="flex flex-col xl:gap-20 gap-12 xl:w-2/5">
           <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
-            HP WARRANTY SERVICE
+            HP Warranty Service
           </h2>
           <h4 className="xl:text-xl lg:text-lg sm:text-base text-sm xl:max-w-lg">
             El servicio de atención de garantías, consiste en la reparación de
@@ -26,6 +28,9 @@ export default function WarrantyServices() {
           </h3>
           <div className="grid lg:grid-cols-3 grid-cols-1 lg:grid-flow-col gap-x-10 lg:gap-y-5 gap-y-10 text-base">
             <div>
+              <div className="mb-3">
+                <Warranty1Svg />
+              </div>
               <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 mb-5 font-extrabold xl:max-w-44">
                 Garantía estandar
               </h3>
@@ -36,6 +41,9 @@ export default function WarrantyServices() {
               </p>
             </div>
             <div>
+              <div className="mb-3">
+                <Warranty2Svg />
+              </div>
               <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 mb-5 font-extrabold xl:max-w-44">
                 Garantía personalizada
               </h3>
@@ -45,6 +53,9 @@ export default function WarrantyServices() {
               </p>
             </div>
             <div>
+              <div className="mb-3">
+                <Warranty3Svg />
+              </div>
               <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 mb-5 font-extrabold xl:max-w-64">
                 Equipos sin garantía
               </h3>
@@ -56,22 +67,17 @@ export default function WarrantyServices() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-20">
-        <h5 className="lg:text-lg max-w-72 mb-10">
-          Instalación y manejo para el extensiones de garantía.
-        </h5>
-        <div className="flex sm:gap-14 gap-6">
-          <div className="border-r-2">
-            <Image
-              src={hp}
-              alt="HP"
-              className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
-            />
-          </div>
-          <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
-          <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
-          <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
+      <div className="flex sm:gap-14 gap-6 mt-20">
+        <div className="border-r-2">
+          <Image
+            src={hp}
+            alt="HP"
+            className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
+          />
         </div>
+        <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
+        <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
+        <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
       </div>
     </div>
   );
