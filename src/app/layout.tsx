@@ -56,10 +56,8 @@ export default function RootLayout({
       >
         <NavBar />
         <Providers>
-          <div>
-            {children}
-            <Analytics />
-          </div>
+          {children}
+          <Analytics />
         </Providers>
       </body>
     </html>

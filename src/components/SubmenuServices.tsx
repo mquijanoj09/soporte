@@ -92,6 +92,7 @@ export default function SubmenuServices({ newMenu }: Props) {
                     src={services}
                     alt="services"
                     fill
+                    sizes="100%"
                     style={{ objectFit: "cover" }}
                     className="rounded-3xl transition-shadow duration-300 group-hover:shadow-custom-xl filter grayscale"
                   />

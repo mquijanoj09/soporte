@@ -24,39 +24,31 @@ export default function Services() {
         <div className="grid xl:grid-cols-2 lg:grid-cols-1 grid-cols-2 xl:gap-16 lg:gap-8 md:gap-12 gap-8">
           <div>
             <CommunitySvg red />
-            <h4 className="xl:text-lg lg:text-base md:text-lg mt-2 font-bold">
-              Colaboración
-            </h4>
-            <p className="lg:text-xs xl:text-base md:text-base sm:text-sm text-xs mt-1">
+            <h4 className="md:text-lg mt-2 font-bold">Colaboración</h4>
+            <p className="md:text-base sm:text-sm text-xs mt-1">
               Las áreas de la empresa se apoyan mutuamente para un
               funcionamiento eficiente.
             </p>
           </div>
           <div>
             <HeadsetSvg red />
-            <h4 className="xl:text-lg lg:text-base md:text-lg mt-2 font-bold">
-              Asistencia
-            </h4>
-            <p className="lg:text-xs xl:text-base md:text-base sm:text-sm text-xs mt-1">
+            <h4 className="md:text-lg mt-2 font-bold">Asistencia</h4>
+            <p className="md:text-base sm:text-sm text-xs mt-1">
               El equipo de Soporte ofrece asistencia técnica especializada.
             </p>
           </div>
           <div>
             <StatsUpSvg />
-            <h4 className="xl:text-lg lg:text-base md:text-lg mt-2 font-bold">
-              Optimización
-            </h4>
-            <p className="lg:text-xs xl:text-base md:text-base sm:text-sm text-xs mt-1">
+            <h4 className="md:text-lg mt-2 font-bold">Optimización</h4>
+            <p className="md:text-base sm:text-sm text-xs mt-1">
               Ayudamos a mejorar los procesos tecnológicos de las
               organizaciones.
             </p>
           </div>
           <div>
             <InnovationSvg />
-            <h4 className="xl:text-lg lg:text-base md:text-lg mt-2 font-bold">
-              Innovación
-            </h4>
-            <p className="lg:text-xs xl:text-base md:text-base sm:text-sm text-xs mt-1">
+            <h4 className="md:text-lg mt-2 font-bold">Innovación</h4>
+            <p className="md:text-base sm:text-sm text-xs mt-1">
               Impulsamos la innovación en los procesos de las organizaciones.
             </p>
           </div>
@@ -64,7 +56,7 @@ export default function Services() {
       </div>
       <div className="xl:w-2/3 lg:w-3/5 bg-secondary lg:bg-white min-h-full flex flex-col justify-between gap-10 xl:px-32 py-28 sm:px-16 px-10 lg:justify-center items-center">
         <div
-          className="bg-lighterGray md:max-h-64 sm:max-h-48 w-full flex justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
+          className="bg-lighterGray xl:max-h-72 md:max-h-64 sm:max-h-48 w-full flex justify-between rounded-md transform transition-transform cursor-pointer duration-300 hover:scale-105 shadow-md"
           onClick={() => scrollToSectionSmooth("warranty-services")}
         >
           <div className="relative w-2/5">
@@ -72,6 +64,7 @@ export default function Services() {
               src={img1}
               alt="services"
               fill
+              sizes="100%"
               style={{ objectFit: "cover" }}
               className="rounded-md rounded-r-none"
             />

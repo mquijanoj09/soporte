@@ -19,7 +19,8 @@ const BrandsSwiper = () => {
           <div className="flex justify-center flex-col items-center text-center md:px-16 px-5">
             <h4 className="xl:text-2xl md:text-xl font-extrabold mb-3">DXC</h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              HP Warranty Service y IT outsourcing.
+              Mesas de Ayuda, soporte en sitio, migraciones masivas, entregas
+              personalizadas, administración de garantías.
             </p>
           </div>
         </div>
@@ -35,8 +36,8 @@ const BrandsSwiper = () => {
               Toshiba
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Atención de Garantías y Mantenimientos de equipos POS a nivel
-              Nacional.
+              Mantenimientos de equipos POS, atención de incidentes equipos POS,
+              soporte en sitio.
             </p>
           </div>
         </div>
@@ -52,8 +53,9 @@ const BrandsSwiper = () => {
               HP INC
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Atención de Garantías, Migraciones, Roll out, Creaciones de
-              Imágenes y Replicaciones masivas.
+              Garantía HP, garantía personalizada, atención de equipos sin
+              garantía DAAS, migraciones masivas, entregas personalizadas,
+              creación de imágenes, replicaciones masivas.
             </p>
           </div>
         </div>
@@ -69,7 +71,8 @@ const BrandsSwiper = () => {
               Argos
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Garantia Off Site y para portátiles en impresoras.
+              Soporte de redes a nivel Nacional, servicio de monitoreo 7x24,
+              servicio de gestión de accesos, soporte a video conferencia.
             </p>
           </div>
         </div>
@@ -83,8 +86,8 @@ const BrandsSwiper = () => {
           <div className="flex justify-center flex-col items-center text-center md:px-16 px-5">
             <h4 className="xl:text-2xl md:text-xl font-extrabold mb-3">IBM</h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Mesa de Ayuda, Soporte en Sitio, Migraciones, Roll out, Creaciones
-              de Imágenes y Replicaciones masivas.
+              Mesas de Ayuda, soporte en sitio, atención de incidentes,
+              migraciones masivas, entregas personalizadas.
             </p>
           </div>
         </div>
@@ -100,7 +103,8 @@ const BrandsSwiper = () => {
           <div className="flex justify-center flex-col items-center text-center md:px-16 px-5">
             <h4 className="xl:text-2xl md:text-xl font-extrabold mb-3">DXC</h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              HP Warranty Service y IT outsourcing.
+              Mesas de Ayuda, soporte en sitio, migraciones masivas, entregas
+              personalizadas, administración de garantías.
             </p>
           </div>
         </div>
@@ -116,8 +120,8 @@ const BrandsSwiper = () => {
               Toshiba
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Atención de Garantías y Mantenimientos de equipos POS a nivel
-              Nacional.
+              Mantenimientos de equipos POS, atención de incidentes equipos POS,
+              soporte en sitio.
             </p>
           </div>
         </div>
@@ -133,8 +137,9 @@ const BrandsSwiper = () => {
               HP INC
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Atención de Garantías, Migraciones, Roll out, Creaciones de
-              Imágenes y Replicaciones masivas.
+              Garantía HP, garantía personalizada, atención de equipos sin
+              garantía DAAS, migraciones masivas, entregas personalizadas,
+              creación de imágenes, replicaciones masivas.
             </p>
           </div>
         </div>
@@ -150,7 +155,8 @@ const BrandsSwiper = () => {
               Argos
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Garantia Off Site y para portátiles en impresoras.
+              Soporte de redes a nivel Nacional, servicio de monitoreo 7x24,
+              servicio de gestión de accesos, soporte a video conferencia.
             </p>
           </div>
         </div>
@@ -164,8 +170,8 @@ const BrandsSwiper = () => {
           <div className="flex justify-center flex-col items-center text-center md:px-16 px-5">
             <h4 className="xl:text-2xl md:text-xl font-extrabold mb-3">IBM</h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Mesa de Ayuda, Soporte en Sitio, Migraciones, Roll out, Creaciones
-              de Imágenes y Replicaciones masivas.
+              Mesas de Ayuda, soporte en sitio, atención de incidentes,
+              migraciones masivas, entregas personalizadas.
             </p>
           </div>
         </div>
@@ -181,7 +187,8 @@ const BrandsSwiper = () => {
           <div className="flex justify-center flex-col items-center text-center md:px-16 px-5">
             <h4 className="xl:text-2xl md:text-xl font-extrabold mb-3">DXC</h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              HP Warranty Service y IT outsourcing.
+              Mesas de Ayuda, soporte en sitio, migraciones masivas, entregas
+              personalizadas, administración de garantías.
             </p>
           </div>
         </div>
@@ -197,8 +204,8 @@ const BrandsSwiper = () => {
               Toshiba
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Atención de Garantías y Mantenimientos de equipos POS a nivel
-              Nacional.
+              Mantenimientos de equipos POS, atención de incidentes equipos POS,
+              soporte en sitio.
             </p>
           </div>
         </div>
@@ -214,8 +221,9 @@ const BrandsSwiper = () => {
               HP INC
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Atención de Garantías, Migraciones, Roll out, Creaciones de
-              Imágenes y Replicaciones masivas.
+              Garantía HP, garantía personalizada, atención de equipos sin
+              garantía DAAS, migraciones masivas, entregas personalizadas,
+              creación de imágenes, replicaciones masivas.
             </p>
           </div>
         </div>
@@ -231,7 +239,8 @@ const BrandsSwiper = () => {
               Argos
             </h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Garantia Off Site y para portátiles en impresoras.
+              Soporte de redes a nivel Nacional, servicio de monitoreo 7x24,
+              servicio de gestión de accesos, soporte a video conferencia.
             </p>
           </div>
         </div>
@@ -245,8 +254,8 @@ const BrandsSwiper = () => {
           <div className="flex justify-center flex-col items-center text-center md:px-16 px-5">
             <h4 className="xl:text-2xl md:text-xl font-extrabold mb-3">IBM</h4>
             <p className="lg:max-w-72 md:max-w-96 sm:text-sm text-xs md:text-base">
-              Mesa de Ayuda, Soporte en Sitio, Migraciones, Roll out, Creaciones
-              de Imágenes y Replicaciones masivas.
+              Mesas de Ayuda, soporte en sitio, atención de incidentes,
+              migraciones masivas, entregas personalizadas.
             </p>
           </div>
         </div>
