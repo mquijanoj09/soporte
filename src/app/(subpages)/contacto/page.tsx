@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Contacto() {
   return (
-    <div className="h-[100dvh] ">
+    <div>
       <Info />
     </div>
   );
