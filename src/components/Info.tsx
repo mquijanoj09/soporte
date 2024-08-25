@@ -13,7 +13,7 @@ export default function Info() {
   }
 
   return (
-    <div className="lg:bg-secondary min-h-[100dvh] text-white flex flex-col md:flex-row relative pt-28 sm:pt-36 pb-12 px-10 xl:px-20 bg-[url('/images/im1.jpeg')] bg-cover gap-10">
+    <div className="lg:bg-secondary overflow-y-hidden min-h-[100dvh] text-white flex flex-col md:flex-row relative pt-28 sm:pt-36 pb-12 px-10 xl:px-20 bg-[url('/images/im1.jpeg')] bg-cover gap-10">
       <div className="bg-neutral-950/70 absolute inset-0" />
       <div className="md:w-2/5 flex items-center flex-col h-full gap-48 z-30">
         <div className="flex justify-center flex-col">
