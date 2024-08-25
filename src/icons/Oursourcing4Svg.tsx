@@ -14,42 +14,42 @@ export default function Oursourcing4Svg() {
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M8.5 21.5L12 18L15.5 21.5"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M12 2V4"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M9 12V14"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M12 10V14"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M15 8V14"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );

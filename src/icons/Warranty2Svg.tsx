@@ -19,21 +19,21 @@ export default function Warranty2Svg() {
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M14 6L16 8L14 10"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M10 6L8 8L10 10"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );

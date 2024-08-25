@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import dxc from "../../public/images/DXC.png";
+import x from "../../public/images/ex/2.png";
+import x2 from "../../public/images/ex/4.png";
+import x3 from "../../public/images/ex/3.png";
+import x4 from "../../public/images/ex/5.png";
 import {
   Oursourcing1Svg,
   Oursourcing2Svg,
@@ -148,17 +151,13 @@ export default function OutsourcingServices() {
           </div>
         </div>
       </div>
-      <div className="flex lg:justify-end mt-20 sm:gap-14 gap-6">
-        <div className="border-r-2">
-          <Image
-            src={dxc}
-            alt="DXC"
-            className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
-          />
-        </div>
-        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+      <div className="sm:mt-20 mt-14 flex flex-col gap-10 xl:hidden">
+        <Image src={x} alt="logos" className="xl:pr-[500px] lg:pr-40" />
+        <Image src={x2} alt="logos" className="xl:pr-[500px] lg:pr-40" />
+      </div>
+      <div className="sm:mt-20 mt-14 xl:flex xl:flex-col gap-10 hidden xl:items-end">
+        <Image src={x3} alt="logos" className="xl:pl-[500px] lg:pl-40" />
+        <Image src={x4} alt="logos" className="xl:pl-[500px] lg:pl-40" />
       </div>
     </div>
   );

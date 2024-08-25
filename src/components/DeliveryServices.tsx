@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import dxc from "../../public/images/DXC.png";
 import {
   Delivery1Svg,
   Delivery2Svg,
@@ -10,6 +9,10 @@ import {
   Delivery6Svg,
 } from "@/icons";
 // Toshiba: exito,ktronix, cine colombia
+import x from "../../public/images/ex/6.png";
+import x2 from "../../public/images/ex/7.png";
+import x3 from "../../public/images/ex/8.png";
+import x4 from "../../public/images/ex/9.png";
 
 export default function DeliveryServices() {
   return (
@@ -122,17 +125,11 @@ export default function DeliveryServices() {
           </div>
         </div>
       </div>
-      <div className="flex sm:gap-14 gap-6 mt-20">
-        <div className="border-r-2">
-          <Image
-            src={dxc}
-            alt="DXC"
-            className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
-          />
-        </div>
-        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
-        <Image src={dxc} alt="DXC" className="xl:w-24 sm:w-16 w-10" />
+      <div className="sm:mt-20 mt-14 grid xl:grid-cols-2 grid-cols-1 gap-10">
+        <Image src={x} alt="logos" className="xl:pr-0 lg:pr-40" />
+        <Image src={x2} alt="logos" className="xl:pr-0 lg:pr-40" />
+        <Image src={x3} alt="logos" className="xl:pr-0 lg:pr-40" />
+        <Image src={x4} alt="logos" className="xl:pr-0 lg:pr-40" />
       </div>
     </div>
   );

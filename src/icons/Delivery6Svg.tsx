@@ -18,14 +18,14 @@ export default function Delivery6Svg() {
         stroke="#000000"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M7.5 4.5L16.1437 8.34164C16.3604 8.43794 16.5 8.65281 16.5 8.88992V12.5"
         stroke="#000000"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );

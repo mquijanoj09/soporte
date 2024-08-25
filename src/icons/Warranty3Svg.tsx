@@ -14,42 +14,42 @@ export default function Warranty3Svg() {
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M3.19995 14.2222V4C3.19995 2.89543 4.09538 2 5.19995 2H12"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M11 19L13 19"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M17.6569 4.82837L14.8284 7.6568"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M20.4853 4.82843C19.7042 5.60948 18.4379 5.60948 17.6569 4.82843C16.8758 4.04738 16.8758 2.78105 17.6569 2"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M14.8284 10.4853C15.6094 9.70427 15.6094 8.43794 14.8284 7.65689C14.0473 6.87584 12.781 6.87584 12 7.65689"
         stroke="#ffffff"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );

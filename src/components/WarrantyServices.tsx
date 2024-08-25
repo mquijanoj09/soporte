@@ -1,8 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import hp from "../../public/images/HP.png";
+import x from "../../public/images/ex/1.png";
 import { Warranty1Svg, Warranty2Svg, Warranty3Svg } from "@/icons";
-// Isa, compensar, bancolombia, banco mundo mujer
 
 export default function WarrantyServices() {
   return (
@@ -67,17 +66,8 @@ export default function WarrantyServices() {
           </div>
         </div>
       </div>
-      <div className="flex sm:gap-14 gap-6 mt-20">
-        <div className="border-r-2">
-          <Image
-            src={hp}
-            alt="HP"
-            className="sm:mr-14 mr-5 xl:w-24 sm:w-16 w-10"
-          />
-        </div>
-        <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
-        <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
-        <Image src={hp} alt="HP" className="xl:w-24 sm:w-16 w-10" />
+      <div className="sm:mt-20 mt-14">
+        <Image src={x} alt="logos" className="xl:pr-[500px] lg:pr-40" />
       </div>
     </div>
   );

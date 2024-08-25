@@ -19,21 +19,21 @@ export default function Delivery5Svg() {
         stroke="#000000"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M12 11.01L12.01 10.9989"
         stroke="#000000"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M11 19L13 19"
         stroke="#000000"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );

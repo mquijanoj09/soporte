@@ -19,7 +19,7 @@ export default function Delivery2Svg() {
         stroke="#000000"
         strokeWidth="1.5"
         strokeLinecap="round"
-        stroke-Linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );
