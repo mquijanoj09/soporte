@@ -10,8 +10,6 @@ import {
   Oursourcing3Svg,
   Oursourcing4Svg,
 } from "@/icons";
-// AVIANCA- FUNDACION GRUPO SOCIAL -PEPSICO – COCACOLA – FEMSA
-// Tuya, argos, (proteccion y aval)
 
 export default function OutsourcingServices() {
   return (
@@ -74,7 +72,7 @@ export default function OutsourcingServices() {
           </div>
         </div>
         <div className="flex flex-col xl:gap-20 gap-12 xl:w-1/2">
-          <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
+          <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-main font-extrabold text-center xl:text-left">
             IT Outsourcing
           </h3>
           <div className="flex flex-col gap-10 lg:text-lg sm:text-base text-sm">

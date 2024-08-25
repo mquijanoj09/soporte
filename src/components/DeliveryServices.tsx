@@ -8,7 +8,6 @@ import {
   Delivery5Svg,
   Delivery6Svg,
 } from "@/icons";
-// Toshiba: exito,ktronix, cine colombia
 import x from "../../public/images/ex/6.png";
 import x2 from "../../public/images/ex/7.png";
 import x3 from "../../public/images/ex/8.png";
@@ -22,7 +21,7 @@ export default function DeliveryServices() {
     >
       <div className="flex xl:flex-row flex-col w-full xl:gap-36 gap-20">
         <div className="flex flex-col xl:gap-20 gap-12">
-          <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
+          <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-main font-extrabold text-center xl:text-left">
             Project Delivery
           </h3>
           <div className="flex flex-col xl:gap-10 gap-5 xl:text-xl lg:text-lg sm:text-base text-sm">

@@ -12,7 +12,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
       <Next13ProgressBar
         height="4px"
         color="#aa0000"
-        options={{ showSpinner: true }}
+        options={{ showSpinner: false }}
         showOnShallow
       />
     </QueryClientProvider>

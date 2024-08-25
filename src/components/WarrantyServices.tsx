@@ -11,7 +11,7 @@ export default function WarrantyServices() {
     >
       <div className="flex xl:flex-row flex-col w-full xl:gap-32 gap-20">
         <div className="flex flex-col xl:gap-20 gap-12 xl:w-2/5">
-          <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
+          <h2 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-secondary font-extrabold text-center xl:text-left">
             HP Warranty Service
           </h2>
           <h4 className="xl:text-xl lg:text-lg sm:text-base text-sm xl:max-w-lg">
