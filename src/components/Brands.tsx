@@ -44,30 +44,30 @@ export default function Brands() {
           Quienes Confían en Nosotros
         </h3>
         <div className="grid xl:grid-cols-6 sm:grid-cols-4 grid-cols-3 md:gap-x-10 px-4 justify-center items-center">
-          <Image src={img1} alt="logo" className="block-appear" />
+          <Image src={img24} alt="logo" className="block-appear" />
           <Image src={img25} alt="logo" className="block-appear" />
-          <Image src={img2} alt="logo" className="block-appear" />
-          <Image src={img3} alt="logo" className="block-appear" />
-          <Image src={img4} alt="logo" className="block-appear" />
+          <Image src={img23} alt="logo" className="block-appear" />
+          <Image src={img21} alt="logo" className="block-appear" />
+          <Image src={img20} alt="logo" className="block-appear" />
+          <Image src={img19} alt="logo" className="block-appear" />
+          <Image src={img18} alt="logo" className="block-appear" />
+          <Image src={img17} alt="logo" className="block-appear" />
+          <Image src={img16} alt="logo" className="block-appear" />
+          <Image src={img15} alt="logo" className="block-appear" />
+          <Image src={img14} alt="logo" className="block-appear" />
+          <Image src={img13} alt="logo" className="block-appear" />
+          <Image src={img12} alt="logo" className="block-appear" />
+          <Image src={img11} alt="logo" className="block-appear" />
+          <Image src={img9} alt="logo" className="block-appear" />
+          <Image src={img1} alt="logo" className="block-appear" />
+          <Image src={img8} alt="logo" className="block-appear" />
+          <Image src={img22} alt="logo" className="block-appear" />
+          <Image src={img7} alt="logo" className="block-appear" />
           <Image src={img5} alt="logo" className="block-appear" />
           <Image src={img6} alt="logo" className="block-appear" />
-          <Image src={img7} alt="logo" className="block-appear" />
-          <Image src={img8} alt="logo" className="block-appear" />
-          <Image src={img9} alt="logo" className="block-appear" />
-          <Image src={img11} alt="logo" className="block-appear" />
-          <Image src={img12} alt="logo" className="block-appear" />
-          <Image src={img13} alt="logo" className="block-appear" />
-          <Image src={img14} alt="logo" className="block-appear" />
-          <Image src={img15} alt="logo" className="block-appear" />
-          <Image src={img16} alt="logo" className="block-appear" />
-          <Image src={img17} alt="logo" className="block-appear" />
-          <Image src={img18} alt="logo" className="block-appear" />
-          <Image src={img19} alt="logo" className="block-appear" />
-          <Image src={img20} alt="logo" className="block-appear" />
-          <Image src={img21} alt="logo" className="block-appear" />
-          <Image src={img22} alt="logo" className="block-appear" />
-          <Image src={img23} alt="logo" className="block-appear" />
-          <Image src={img24} alt="logo" className="block-appear" />
+          <Image src={img3} alt="logo" className="block-appear" />
+          <Image src={img4} alt="logo" className="block-appear" />
+          <Image src={img2} alt="logo" className="block-appear" />
         </div>
       </div>
     </>
