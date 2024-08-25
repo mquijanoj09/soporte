@@ -67,7 +67,7 @@ export default function WarrantyServices() {
         </div>
       </div>
       <div className="sm:mt-20 mt-14">
-        <Image src={x} alt="logos" className="xl:pr-[500px] lg:pr-40" />
+        <Image src={x} alt="logos" className="xl:pr-[550px] lg:pr-40" />
       </div>
     </div>
   );
