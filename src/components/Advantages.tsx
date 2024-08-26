@@ -71,7 +71,7 @@ export default function Advantages() {
         >
           {isVisible && (
             <div>
-              <span>+</span> <CountUp start={0} end={40} duration={2.5} />
+              <span>+</span> <CountUp start={0} end={50} duration={2.5} />
               {""} <span>clientes</span>
             </div>
           )}

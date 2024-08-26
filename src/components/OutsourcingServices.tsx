@@ -10,8 +10,6 @@ import {
   Oursourcing3Svg,
   Oursourcing4Svg,
 } from "@/icons";
-// AVIANCA- FUNDACION GRUPO SOCIAL -PEPSICO – COCACOLA – FEMSA
-// Tuya, argos, (proteccion y aval)
 
 export default function OutsourcingServices() {
   return (

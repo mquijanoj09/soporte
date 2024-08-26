@@ -8,7 +8,6 @@ import {
   Delivery5Svg,
   Delivery6Svg,
 } from "@/icons";
-// Toshiba: exito,ktronix, cine colombia
 import x from "../../public/images/ex/6.png";
 import x2 from "../../public/images/ex/7.png";
 import x3 from "../../public/images/ex/8.png";
