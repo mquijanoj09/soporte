@@ -11,7 +11,7 @@ const myFont = localFont({ src: "../fonts/NoveraClassicRegular.otf" });
 export const metadata: Metadata = {
   title: "Soporte SA - Servicios tecnológicos de alto desempeño.",
   description:
-    "Soprte SA es una empresa de servicios tecnólogicos de alto desempeño, HP Warranty Service, IT Outsourcing, Project Delivery. SOPORTE SA fue fundada en 1995 con el fin de ofrecer servicios de calidad para los equipos de TI.",
+    "Soprte SA es una empresa de servicios tecnológicos de alto desempeño, HP Warranty Service, IT Outsourcing, Project Delivery. SOPORTE SA fue fundada en 1995 con el fin de ofrecer servicios de calidad para los equipos de TI.",
 };
 
 export default function RootLayout({

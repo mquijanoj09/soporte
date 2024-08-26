@@ -24,7 +24,7 @@ export default function Footer() {
             className="xl:w-52 w-48"
             loading="lazy"
           />
-          <div className="mt-4 flex gap-4 items-center">
+          <div className="mt-4 flex flex-col gap-3">
             <div className="w-4">
               <CitySvg width />
             </div>
@@ -35,6 +35,13 @@ export default function Footer() {
             >
               Edificio Nelida, Cra. 43B #11-59 Oficina 203, El Poblado,
               Medellín, Antioquia.
+            </a>
+            <a
+              target="_blank"
+              className="xl:text-base lg:text-sm sm:text-base text-sm hover:text-main"
+              href="https://www.google.com/maps/place/SOPORTE+S.A./@4.6941933,-74.0686498,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9b4abf2d3c83:0x2542e892799d656d!8m2!3d4.694188!4d-74.0660749!16s%2Fg%2F11gjt875zn?hl=es&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
+            >
+              Transversal 58 #106-44, Suba, Bogotá, Cundinamarca.
             </a>
           </div>
         </div>
