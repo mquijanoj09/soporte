@@ -21,7 +21,7 @@ export default function DeliveryServices() {
     >
       <div className="flex xl:flex-row flex-col w-full xl:gap-36 gap-20">
         <div className="flex flex-col xl:gap-20 gap-12">
-          <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl text-main font-extrabold text-center xl:text-left">
+          <h3 className="xl:text-5xl lg:text-4xl md:text-3xl text-2xl font-extrabold text-center xl:text-left">
             Project Delivery
           </h3>
           <div className="flex flex-col xl:gap-10 gap-5 xl:text-xl lg:text-lg sm:text-base text-sm">
@@ -42,7 +42,7 @@ export default function DeliveryServices() {
               <div className="mb-3">
                 <Delivery2Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
                 Entregas Personalizadas
               </h4>
             </div>
@@ -57,7 +57,7 @@ export default function DeliveryServices() {
               <div className="mb-3">
                 <Delivery3Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
                 Almacenamiento y Continuidad
               </h4>
             </div>
@@ -71,7 +71,7 @@ export default function DeliveryServices() {
               <div className="mb-3">
                 <Delivery4Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
                 Creación de imágenes y replicaciones masivas
               </h4>
             </div>
@@ -85,7 +85,7 @@ export default function DeliveryServices() {
               <div className="mb-3">
                 <Delivery1Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
                 Migraciones Masivas
               </h4>
             </div>
@@ -99,7 +99,7 @@ export default function DeliveryServices() {
               <div className="mb-3">
                 <Delivery5Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
                 Mantenimientos Preventivos Especializados
               </h4>
             </div>
@@ -113,7 +113,7 @@ export default function DeliveryServices() {
               <div className="mb-3">
                 <Delivery6Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
                 Inventarios Pared a Pared
               </h4>
             </div>
