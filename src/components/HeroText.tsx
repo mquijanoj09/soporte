@@ -28,7 +28,7 @@ export default function HeroText() {
             Centro de tecnología
           </h3>
           <h1 className="xl:text-7xl lg:text-6xl sm:text-5xl text-3xl text-center">
-            Servicios&nbsp;tecnólogicos de alto desempeño.
+            Servicios&nbsp;tecnológicos de alto desempeño.
           </h1>
           <div className="flex gap-5 -bottom-28 w-full lg:text-lg text-base items-center justify-center absolute">
             <div className="pr-2">Síguenos</div>
