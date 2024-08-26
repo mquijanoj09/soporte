@@ -28,9 +28,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing1Svg />
               </div>
-              <h4 className="text-2xl font-extrabold text-main mb-3">
-                Mesa de ayuda
-              </h4>
+              <h4 className="text-2xl font-extrabold mb-3">Mesa de ayuda</h4>
               <p>
                 Somos centro autorizado de servicios HP inc a nivel nacional
                 para la atención de garantías para servidores, portatiles,
@@ -41,9 +39,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing2Svg />
               </div>
-              <h4 className="text-2xl font-extrabold text-main mb-3">
-                Soporte en sitio
-              </h4>
+              <h4 className="text-2xl font-extrabold mb-3">Soporte en sitio</h4>
               <p>
                 Proveemos personal calificado, con experiencia en la atención de
                 incidentes y requerimientos directamente en las instalaciones de
@@ -54,7 +50,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing3Svg />
               </div>
-              <h4 className="text-2xl font-extrabold text-main mb-3">
+              <h4 className="text-2xl font-extrabold mb-3">
                 Administrador de redes
               </h4>
               <p>
@@ -67,9 +63,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing4Svg />
               </div>
-              <h4 className="text-2xl font-extrabold text-main mb-3">
-                Monitoreo
-              </h4>
+              <h4 className="text-2xl font-extrabold mb-3">Monitoreo</h4>
               <p>
                 Cubre el monitoreo de alarmas que se presentan a través de las
                 diferentes herramientas de monitoreo del cliente.
@@ -105,7 +99,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing1Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Mesa de ayuda
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -118,7 +112,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing2Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Soporte en sitio
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -131,7 +125,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing3Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Administrador de redes
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -144,7 +138,7 @@ export default function OutsourcingServices() {
               <div className="mb-3">
                 <Oursourcing4Svg />
               </div>
-              <h4 className="xl:text-2xl lg:text-xl sm:text-lg text-main font-extrabold mb-3">
+              <h4 className="xl:text-2xl lg:text-xl sm:text-lg font-extrabold mb-3">
                 Monitoreo
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">

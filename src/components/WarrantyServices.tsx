@@ -30,7 +30,7 @@ export default function WarrantyServices() {
               <div className="mb-3">
                 <Warranty1Svg />
               </div>
-              <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 text-secondary mb-5 font-extrabold xl:max-w-44">
+              <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 mb-5 font-extrabold xl:max-w-44">
                 Garantía estandar
               </h3>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -43,7 +43,7 @@ export default function WarrantyServices() {
               <div className="mb-3">
                 <Warranty2Svg />
               </div>
-              <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 text-secondary mb-5 font-extrabold xl:max-w-44">
+              <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 mb-5 font-extrabold xl:max-w-44">
                 Garantía personalizada
               </h3>
               <p className="lg:text-base sm:text-sm text-xs">
@@ -55,7 +55,7 @@ export default function WarrantyServices() {
               <div className="mb-3">
                 <Warranty3Svg />
               </div>
-              <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 text-secondary mb-5 font-extrabold xl:max-w-64">
+              <h3 className="xl:text-2xl lg:text-xl sm:text-lg lg:mb-10 mb-5 font-extrabold xl:max-w-64">
                 Equipos sin garantía
               </h3>
               <p className="lg:text-base sm:text-sm text-xs">
