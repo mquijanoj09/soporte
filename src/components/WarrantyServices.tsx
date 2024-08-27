@@ -35,7 +35,7 @@ export default function WarrantyServices() {
               </h3>
               <p className="lg:text-base sm:text-sm text-xs">
                 Somos centro autorizado de servicios HP inc a nivel nacional
-                para la atención de garantías para servidores, portatiles,
+                para la atención de garantías para servidores, portátiles,
                 desktops e impresoras.
               </p>
             </div>

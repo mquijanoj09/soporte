@@ -31,7 +31,7 @@ export default function OutsourcingServices() {
               <h4 className="text-2xl font-extrabold mb-3">Mesa de ayuda</h4>
               <p>
                 Somos centro autorizado de servicios HP inc a nivel nacional
-                para la atención de garantías para servidores, portatiles,
+                para la atención de garantías para servidores, portátiles,
                 desktops e impresoras.
               </p>
             </div>
@@ -83,7 +83,7 @@ export default function OutsourcingServices() {
             </p>
             <p>
               Nuestro enfoque está basado en la siguientes ventajas: Reducción
-              de Costos / Enfoque en los principales negocios de la empresa /
+              de costos / Enfoque en los principales negocios de la empresa /
               Reducción de riesgos y aumento de eficiencia / Equipo
               especializado.
             </p>
@@ -104,7 +104,7 @@ export default function OutsourcingServices() {
               </h4>
               <p className="lg:text-base sm:text-sm text-xs">
                 Somos centro autorizado de servicios HP inc a nivel nacional
-                para la atención de garantías para servidores, portatiles,
+                para la atención de garantías para servidores, portátiles,
                 desktops e impresoras.
               </p>
             </div>
