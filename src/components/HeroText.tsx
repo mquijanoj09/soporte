@@ -34,7 +34,7 @@ export default function HeroText() {
             <div className="pr-2">Síguenos</div>
             <div className="border-b w-20" />
             <a
-              href="https://www.instagram.com/soportesa/"
+              href="https://www.instagram.com/soporte_sa/"
               target="_blank"
               rel="noreferrer"
               className="pr-4 pl-2"

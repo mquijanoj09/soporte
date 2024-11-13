@@ -85,7 +85,7 @@ export default function Footer() {
             <a
               target="_blank"
               className="xl:text-base lg:text-sm sm:text-base text-sm hover:text-main flex gap-2 items-center"
-              href="https://www.instagram.com/soportesa/"
+              href="https://www.instagram.com/soporte_sa/"
             >
               <div className="w-4">
                 <InstagramSvg width />
