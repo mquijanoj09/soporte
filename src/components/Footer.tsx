@@ -39,9 +39,9 @@ export default function Footer() {
             <a
               target="_blank"
               className="xl:text-base lg:text-sm sm:text-base text-sm hover:text-main"
-              href="https://www.google.com/maps/place/SOPORTE+S.A./@4.6941933,-74.0686498,17z/data=!3m1!4b1!4m6!3m5!1s0x8e3f9b4abf2d3c83:0x2542e892799d656d!8m2!3d4.694188!4d-74.0660749!16s%2Fg%2F11gjt875zn?hl=es&entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D"
+              href="https://www.google.com/maps/place/Cl.+104a+%2345a-14,+Bogot%C3%A1,+Colombia/@4.6907036,-74.0581163,674m/data=!3m1!1e3!4m6!3m5!1s0x8e3f9b9b00c76439:0xdd9204e1a7acb889!8m2!3d4.6913661!4d-74.0577923!16s%2Fg%2F11tsjh_82l?entry=ttu&g_ep=EgoyMDI1MDIwMi4wIKXMDSoASAFQAw%3D%3D"
             >
-              Transversal 58 #106-44, Suba, Bogotá, Cundinamarca.
+              Calle 104a #45a-14, Bogotá, Cundinamarca.
             </a>
           </div>
         </div>
