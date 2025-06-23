@@ -14,13 +14,17 @@ export default function HeroImage() {
     offset: ["end end", "end start"],
   });
 
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
-  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 0.5, 1], [1, 0.95, 0.85]);
+  const opacity = useTransform(
+    scrollYProgress,
+    [0, 0.3, 0.7, 1],
+    [1, 0.8, 0.4, 0]
+  );
 
   const [isBottomVisible, setIsBottomVisible] = useState(false);
 
   useMotionValueEvent(scrollYProgress, "change", (value) => {
-    setIsBottomVisible(value > 0 && value < 1);
+    setIsBottomVisible(value > 0.1 && value < 0.9);
   });
 
   return (
@@ -37,6 +41,11 @@ export default function HeroImage() {
       className={`sticky z-0 overflow-hidden ${
         isBottomVisible ? "rounded-b-3xl" : ""
       }`}
+      transition={{
+        type: "spring",
+        stiffness: 300,
+        damping: 30,
+      }}
     >
       <motion.div
         className={`absolute inset-0 bg-neutral-950/70 ${
